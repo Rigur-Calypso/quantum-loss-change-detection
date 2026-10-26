@@ -12,10 +12,10 @@ Additional studies cover rare-event ARL validation, initial-channel sensitivity
 and conservative sampled-grid thresholds. These are project extensions, not
 claims of a new quantum theorem or established research novelty.
 
-Assets contain unchanged raw NumPy arrays, split into core and extensions.
+The proposed local assets contain unchanged raw NumPy arrays, split into core and extensions. They are not attached to a public release yet.
 The repository tracks plots, numerical tables and summaries. Archive/member
 hashes and exact sizes are in release/evidence.json. Restore using
-`python -m lossqcd.evidence --scope core` or `--scope all`.
+`python -m lossqcd.evidence --scope core --archive-dir /path/to/archives` or `--scope all` with the matching local archives.
 
 The public report recalculates saved evidence; it does not regenerate every
 historical random trajectory. Code is MIT; generated data/plots and imported

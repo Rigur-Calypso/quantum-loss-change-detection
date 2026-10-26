@@ -11,16 +11,21 @@ python -m lossqcd.walkthrough --output walkthrough_repeat
 
 ## Recheck the seven core saved studies
 
+The raw archives are retained locally and have not been publicly uploaded.
+These commands require matching archives obtained from the maintainer; the
+unit tests, plots and readable reports are available without them. To obtain
+new evidence independently, use the regeneration commands below.
+
 ```sh
-python -m lossqcd.evidence --scope core
+python -m lossqcd.evidence --scope core --archive-dir /path/to/archives
 python -m lossqcd.reproduction_report --output review_repeat
 python -m lossqcd.reproduction_report --check review_repeat
 ```
 
-`lossqcd.evidence` downloads the declared v0.1.0 asset, verifies its SHA-256 and
+`lossqcd.evidence` reads the supplied archive, verifies its SHA-256 and
 every member's hash/size, then restores absent files. It refuses conflicting
 files and unsafe archive entries. Already identical files are preserved.
-If assets are downloaded manually from GitHub Releases, avoid network access:
+Use `--archive-dir` to avoid network access:
 
 ```sh
 python -m lossqcd.evidence --scope core --archive-dir /path/to/downloads
@@ -61,7 +66,7 @@ and combined checker recalculate the saved curves without that Monte Carlo cost.
 ## Additional studies
 
 ```sh
-python -m lossqcd.evidence --scope all
+python -m lossqcd.evidence --scope all --archive-dir /path/to/archives
 python -m lossqcd.audit_adaptive_validation results_adaptive_validation
 python -m lossqcd.audit_null_channel_diagnostics results_null_channel_refined
 python -m lossqcd.audit_entangled_null_diagnostics results_entangled_null_diagnostics

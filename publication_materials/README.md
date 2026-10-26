@@ -60,19 +60,26 @@ tests on a compatible newer environment are a different validation.
 
 ## Review the saved evidence
 
-Plots, tables, summaries, source and tests are tracked in Git. Large raw NumPy
-ensembles are [v0.1.0 release assets](https://github.com/Rigur-Calypso/quantum-loss-change-detection/releases/tag/v0.1.0),
-with archive and individual-file SHA-256 checksums. Restore the core ensembles:
+Plots, tables, summaries, source and tests are tracked in Git. The **739 large
+raw NumPy ensembles are retained locally and are not publicly uploaded yet**.
+Their planned two-archive inventory, exact sizes and SHA-256 checksums are in
+[release/evidence.json](release/evidence.json). Public saved-data summaries and
+plots can be reviewed immediately; rerunning the saved-array audits requires
+those raw ensembles or newly regenerated experiments.
+
+If you have received the matching archives from the maintainer, restore them
+without network access:
 
 ```sh
-python -m lossqcd.evidence --scope core
+python -m lossqcd.evidence --scope core --archive-dir /path/to/archives
 python -m lossqcd.reproduction_report --output review_repeat
 python -m lossqcd.reproduction_report --check review_repeat
 ```
 
-Use `--scope all` for the additional robustness/diagnostic studies as well.
-The loader verifies checksums and refuses to overwrite conflicting evidence.
-The release download is substantial; see `release/evidence.json` for exact sizes.
+Use `--scope all` for the additional studies. The loader verifies checksums and
+refuses conflicting evidence. The downloader's default GitHub asset URLs are
+reserved for a future approved upload and are not currently available.
+See [regeneration instructions](REPRODUCING.md) for running new simulations.
 
 ## Results in brief
 

@@ -27,5 +27,16 @@
     "release/validation_tests.txt": "eea939865e3112da1c9be701ec29de431bd5a11f15d4af3355c8e19ae9fe4088",
     "release/validation_core.txt": "34dacac646afea75ea88f3fc212c8e34a244059b642abcb46947bfc9854caaac",
     "release/extension_audits/summary.json": "1e9c222de42e068a812d725e1be821eb277c6ac87ffffcedf0c9d0665a850f6f"
+  },
+  "raw_asset_publication_status": "not_uploaded",
+  "clean_checkout_tests_passed": 421,
+  "github_actions": {
+    "conclusion": "success",
+    "python_versions": [
+      "3.11",
+      "3.14"
+    ],
+    "commit": "e58f72665433266d1325b1c8a527a94a575f47be",
+    "url": "https://github.com/Rigur-Calypso/quantum-loss-change-detection/actions/runs/40362812958"
   }
 }

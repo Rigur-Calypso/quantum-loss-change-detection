@@ -14,6 +14,9 @@ GitHub Actions additionally runs the unit tests from a fresh checkout; see the r
 
 [Machine-readable record](validation.json) · [Unit-test log](validation_tests.txt) · [Core log](validation_core.txt) · [Extension summary](extension_audits/summary.json)
 
+The raw archives remain local; no public raw-data release is available yet.
+The clean committed checkout also passed all 421 tests without raw arrays; see [clean-checkout record](clean_checkout.json). GitHub Actions passed on Python 3.11 and 3.14 for the initial published commit.
+
 The current [consolidated report](../paper_reproduction_public/REPORT.md) recalculates saved arrays. Earlier report folders record earlier snapshots and may have stale current-checkout hashes or historical limitations. Always use the current README and FINDINGS.md for the release's scientific claims.
 
 **Successful checks do not establish full published-figure agreement.** See [remaining gaps](../FINDINGS.md).

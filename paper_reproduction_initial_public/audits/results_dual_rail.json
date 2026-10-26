@@ -1,0 +1,303 @@
+{
+  "passed": true,
+  "count": 74,
+  "regenerated": false,
+  "checks": [
+    {
+      "name": "physical target uses two time bins per qubit",
+      "passed": true
+    },
+    {
+      "name": "six calibration rounds",
+      "passed": true
+    },
+    {
+      "name": "calibration 0 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "calibration 1 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "calibration 2 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "calibration 3 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "calibration 4 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "calibration 5 threshold and seed",
+      "passed": true
+    },
+    {
+      "name": "frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "holdout 0 complete independent cycles",
+      "passed": true
+    },
+    {
+      "name": "holdout 0 raw summary",
+      "passed": true
+    },
+    {
+      "name": "holdout 0 seed",
+      "passed": true
+    },
+    {
+      "name": "holdout 0 ARL match",
+      "passed": true
+    },
+    {
+      "name": "holdout 1 complete independent cycles",
+      "passed": true
+    },
+    {
+      "name": "holdout 1 raw summary",
+      "passed": true
+    },
+    {
+      "name": "holdout 1 seed",
+      "passed": true
+    },
+    {
+      "name": "holdout 1 ARL match",
+      "passed": true
+    },
+    {
+      "name": "holdout repetition and status",
+      "passed": true
+    },
+    {
+      "name": "control raw weighted summary",
+      "passed": true
+    },
+    {
+      "name": "control raw physical summary",
+      "passed": true
+    },
+    {
+      "name": "control direct comparison",
+      "passed": true
+    },
+    {
+      "name": "complete encoding/phase grid",
+      "passed": true
+    },
+    {
+      "name": "case 0 seed",
+      "passed": true
+    },
+    {
+      "name": "case 0 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 0 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 0 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 0 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 1 seed",
+      "passed": true
+    },
+    {
+      "name": "case 1 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 1 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 1 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 1 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 2 seed",
+      "passed": true
+    },
+    {
+      "name": "case 2 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 2 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 2 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 2 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 3 seed",
+      "passed": true
+    },
+    {
+      "name": "case 3 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 3 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 3 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 3 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 4 seed",
+      "passed": true
+    },
+    {
+      "name": "case 4 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 4 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 4 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 4 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 5 seed",
+      "passed": true
+    },
+    {
+      "name": "case 5 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 5 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 5 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 5 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 6 seed",
+      "passed": true
+    },
+    {
+      "name": "case 6 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 6 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 6 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 6 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "case 7 seed",
+      "passed": true
+    },
+    {
+      "name": "case 7 raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 7 physical false-alarm classification",
+      "passed": true
+    },
+    {
+      "name": "case 7 physical delay",
+      "passed": true
+    },
+    {
+      "name": "case 7 complete and passed",
+      "passed": true
+    },
+    {
+      "name": "all state samples regenerate",
+      "passed": true
+    },
+    {
+      "name": "state survival and fidelity",
+      "passed": true
+    },
+    {
+      "name": "delay CSV size",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 0",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 1",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 2",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 3",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 4",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 5",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 6",
+      "passed": true
+    },
+    {
+      "name": "CSV physical delay 7",
+      "passed": true
+    },
+    {
+      "name": "overall status",
+      "passed": true
+    }
+  ]
+}

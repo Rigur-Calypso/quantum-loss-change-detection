@@ -1719,8 +1719,9 @@
     },
     {
       "file": "README.md",
-      "published_sha256": "02868c8dcace4ccf8277137603978f0f80068f8f2e3f3b6fa9ddfa5ea8674439",
+      "published_sha256": "4a259fff01e9e207f0176650199eb574343cc46e82d4a9acee58567bbdd2ffda",
       "reason": "Add release validation summary and links."
     }
-  ]
+  ],
+  "publication_note": "Code, figures, tables and summaries are public. Raw archives remain local and are not attached to a public release."
 }
