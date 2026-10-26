@@ -1,0 +1,19 @@
+{
+  "source": "notebooks/01_paper_walkthrough.ipynb",
+  "source_sha256": "58517c79f5166fd5351abe573933d2f4c9981fa98710994efbf6eedff8be4e58",
+  "executed_code_cells": 7,
+  "source_unchanged": true,
+  "scope": "Teaching demonstration at ARL 1000; not a new paper-figure reproduction.",
+  "files": {
+    "01_paper_walkthrough.ipynb": "86d703dcf90ee5a3ea78c974e67d8e7afe31deb9950fda42a3afc301a8d86bb3",
+    "cell_02_figure_01.png": "b99e45742272cec7690cab9c589b22b013782db4242c0c2db55630f018f081b5",
+    "cell_03_figure_01.png": "5609949aa654f74bd413b04b9cab351f5243b12b9c4884c8fdd63e71d442e931",
+    "cell_05_figure_01.png": "314d0d72e7d9387ddb9ab458e97ca42528968333773b25a6bde4e74b8935a1b2",
+    "cell_06_figure_01.png": "e0d52ee3f88509f7172a71a4ce48ebbc171c12ddd4341cdc23a1443f878f840d",
+    "coherent_runs.npz": "f6e888a4ce37b33085f46700a65d7a3498c0cb5dc382f2a03cab5181b1a44ea5",
+    "execution.txt": "40ddc23e2973eea1737c58d093c80dbe83ef3234ed49b2f5b3fd18a3dbd23ffc",
+    "figure2.csv": "84ecbedeb9cca2f0c32eaeababac2a17a81f1618907007c65151d2e3d22fd228",
+    "lesson_summary.json": "ab1dab736867f5a509f8908fe9a74125b5ee6f81f6ffadb9680e5c64bd9cd418",
+    "squeezed_runs.npz": "23321ccde833f9b3283837886f917794c78d7d0581763ea22449cb88bb0a3ead"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "kind": "entangled",
+  "n": 1,
+  "label": "Squeezed n=1",
+  "seeds": [
+    7970445461730055896,
+    14240380549836569508,
+    8982783166644746145,
+    3643265866281031325,
+    2045204114903520188,
+    17007601733743020834
+  ],
+  "moderate_check": {
+    "estimate": {
+      "arl": 1009.6104297818164,
+      "arl_se": 2.0183267983630717,
+      "relative_se": 0.0019991144493220476,
+      "approx_95_interval": [
+        1005.6622493156501,
+        1013.5741106100616
+      ],
+      "mean_pre_cycle_length": 2.3954590000000002,
+      "mean_pre_cycle_length_se": 0.0035305517478312993,
+      "cycle_alarm_probability": 0.0023726567489181687,
+      "cycle_alarm_probability_se": 3.2045970403487235e-06,
+      "success_weight_ess": 354080.39099076274,
+      "largest_weight_fraction": 3.872117126025443e-06,
+      "max_log_success_weight": -4.689943542124888,
+      "diagnostics_passed": true,
+      "pre_cycles": 1000000,
+      "post_cycles": 1000000,
+      "pre_observed_alarm_cycles": 2365,
+      "post_proposal_successes": 394405,
+      "pre_pulses_simulated": 2395459,
+      "post_pulses_simulated": 7266206,
+      "longest_pre_cycle": 77,
+      "longest_post_cycle": 117,
+      "unfinished_pre_cycles": 0,
+      "unfinished_post_cycles": 0,
+      "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+      "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+      "seed": 7970445461730055896,
+      "stream_seeds": [
+        13833596405930515064,
+        9240240701928396300
+      ],
+      "threshold": 4.68994140625,
+      "kind": "entangled",
+      "n": 1,
+      "max_steps": 100000,
+      "parameters": {
+        "N": 100.0,
+        "Na": 0.1,
+        "eta1": 0.9,
+        "eta2": 0.85
+      }
+    },
+    "direct": {
+      "trials": 50000,
+      "horizon": 100000,
+      "censored": 0,
+      "arl": 1000.1504,
+      "arl_se": 4.406366604463349,
+      "restricted_mean_min_T_H": 1000.1504,
+      "restricted_mean_se": 4.406366604463349
+    },
+    "z": 1.9518825376360174,
+    "passed": true
+  },
+  "calibration": {
+    "threshold": 12.253224857141857,
+    "history": [
+      {
+        "arl": 1538265.9906579196,
+        "arl_se": 4561.461175245274,
+        "relative_se": 0.0029653266749363207,
+        "approx_95_interval": [
+          1529351.4576611358,
+          1547232.4861373312
+        ],
+        "mean_pre_cycle_length": 2.442938,
+        "mean_pre_cycle_length_se": 0.005540183141699423,
+        "cycle_alarm_probability": 1.5881115586226735e-06,
+        "cycle_alarm_probability_se": 3.0341167146232898e-09,
+        "success_weight_ess": 176988.8284667867,
+        "largest_weight_fraction": 7.737752853519317e-06,
+        "max_log_success_weight": -12.00000081069959,
+        "diagnostics_passed": true,
+        "pre_cycles": 500000,
+        "post_cycles": 500000,
+        "pre_observed_alarm_cycles": 0,
+        "post_proposal_successes": 197135,
+        "pre_pulses_simulated": 1221469,
+        "post_pulses_simulated": 9495491,
+        "longest_pre_cycle": 126,
+        "longest_post_cycle": 209,
+        "unfinished_pre_cycles": 0,
+        "unfinished_post_cycles": 0,
+        "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+        "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+        "seed": 11721084570670928278,
+        "stream_seeds": [
+          15829460294520847984,
+          16324287927453571934
+        ],
+        "threshold": 12.0,
+        "kind": "entangled",
+        "n": 1,
+        "max_steps": 100000,
+        "parameters": {
+          "N": 100.0,
+          "Na": 0.1,
+          "eta1": 0.9,
+          "eta2": 0.85
+        }
+      },
+      {
+        "arl": 2000817.1293588963,
+        "arl_se": 5931.388909470368,
+        "relative_se": 0.002964483271577603,
+        "approx_95_interval": [
+          1989225.3161700894,
+          2012476.4915236346
+        ],
+        "mean_pre_cycle_length": 2.4352479999999996,
+        "mean_pre_cycle_length_se": 0.005509676131140027,
+        "cycle_alarm_probability": 1.2171267250097475e-06,
+        "cycle_alarm_probability_se": 2.331485419706425e-09,
+        "success_weight_ess": 176386.06400823395,
+        "largest_weight_fraction": 7.765344957615728e-06,
+        "max_log_success_weight": -12.262493920635364,
+        "diagnostics_passed": true,
+        "pre_cycles": 500000,
+        "post_cycles": 500000,
+        "pre_observed_alarm_cycles": 1,
+        "post_proposal_successes": 196481,
+        "pre_pulses_simulated": 1217624,
+        "post_pulses_simulated": 9673779,
+        "longest_pre_cycle": 126,
+        "longest_post_cycle": 198,
+        "unfinished_pre_cycles": 0,
+        "unfinished_post_cycles": 0,
+        "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+        "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+        "seed": 7560208892502915120,
+        "stream_seeds": [
+          5999836122914141383,
+          15690564865939974999
+        ],
+        "threshold": 12.262491378618504,
+        "kind": "entangled",
+        "n": 1,
+        "max_steps": 100000,
+        "parameters": {
+          "N": 100.0,
+          "Na": 0.1,
+          "eta1": 0.9,
+          "eta2": 0.85
+        }
+      },
+      {
+        "arl": 2004079.1967745759,
+        "arl_se": 5963.971627704641,
+        "relative_se": 0.002975916140092284,
+        "approx_95_interval": [
+          1992423.837094194,
+          2015802.7384385047
+        ],
+        "mean_pre_cycle_length": 2.4421440000000003,
+        "mean_pre_cycle_length_se": 0.005563527592472832,
+        "cycle_alarm_probability": 1.2185865727913652e-06,
+        "cycle_alarm_probability_se": 2.3332637136989545e-09,
+        "success_weight_ess": 176485.6861610211,
+        "largest_weight_fraction": 7.75921331518418e-06,
+        "max_log_success_weight": -12.26208514615874,
+        "diagnostics_passed": true,
+        "pre_cycles": 500000,
+        "post_cycles": 500000,
+        "pre_observed_alarm_cycles": 1,
+        "post_proposal_successes": 196551,
+        "pre_pulses_simulated": 1221072,
+        "post_pulses_simulated": 9681235,
+        "longest_pre_cycle": 134,
+        "longest_post_cycle": 198,
+        "unfinished_pre_cycles": 0,
+        "unfinished_post_cycles": 0,
+        "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+        "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+        "seed": 17631685936653298084,
+        "stream_seeds": [
+          3563983817810712557,
+          16941073009699582084
+        ],
+        "threshold": 12.262082897378878,
+        "kind": "entangled",
+        "n": 1,
+        "max_steps": 100000,
+        "parameters": {
+          "N": 100.0,
+          "Na": 0.1,
+          "eta1": 0.9,
+          "eta2": 0.85
+        }
+      },
+      {
+        "arl": 2013687.6634356861,
+        "arl_se": 6001.720824148245,
+        "relative_se": 0.0029804626274108027,
+        "approx_95_interval": [
+          2001958.582899902,
+          2025485.4623412658
+        ],
+        "mean_pre_cycle_length": 2.445578,
+        "mean_pre_cycle_length_se": 0.005572208412366248,
+        "cycle_alarm_probability": 1.2144773215859297e-06,
+        "cycle_alarm_probability_se": 2.3334631538164237e-09,
+        "success_weight_ess": 175695.53269379155,
+        "largest_weight_fraction": 7.801303993028086e-06,
+        "max_log_success_weight": -12.260053043968123,
+        "diagnostics_passed": true,
+        "pre_cycles": 500000,
+        "post_cycles": 500000,
+        "pre_observed_alarm_cycles": 0,
+        "post_proposal_successes": 195798,
+        "pre_pulses_simulated": 1222789,
+        "post_pulses_simulated": 9665668,
+        "longest_pre_cycle": 120,
+        "longest_post_cycle": 216,
+        "unfinished_pre_cycles": 0,
+        "unfinished_post_cycles": 0,
+        "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+        "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+        "seed": 13061282206505532200,
+        "stream_seeds": [
+          5796534254583267672,
+          6802384324488814692
+        ],
+        "threshold": 12.260045376148483,
+        "kind": "entangled",
+        "n": 1,
+        "max_steps": 100000,
+        "parameters": {
+          "N": 100.0,
+          "Na": 0.1,
+          "eta1": 0.9,
+          "eta2": 0.85
+        }
+      }
+    ],
+    "cycles_per_ensemble": 500000,
+    "seed": 14240380549836569508,
+    "target_arl_pulses": 2000000.0,
+    "method": "fixed-budget log-ARL corrections; threshold frozen before holdout"
+  },
+  "validation_repeats": [
+    {
+      "arl": 1998143.4697245269,
+      "arl_se": 4210.931417081224,
+      "relative_se": 0.00210742195487182,
+      "approx_95_interval": [
+        1989907.0662833306,
+        2006413.9643767122
+      ],
+      "mean_pre_cycle_length": 2.449119,
+      "mean_pre_cycle_length_se": 0.003950920998149132,
+      "cycle_alarm_probability": 1.2256972720470608e-06,
+      "cycle_alarm_probability_se": 1.6620790000706026e-09,
+      "success_weight_ess": 352260.49115485686,
+      "largest_weight_fraction": 3.8914243366566325e-06,
+      "max_log_success_weight": -12.253225430235608,
+      "diagnostics_passed": true,
+      "pre_cycles": 1000000,
+      "post_cycles": 1000000,
+      "pre_observed_alarm_cycles": 1,
+      "post_proposal_successes": 392362,
+      "pre_pulses_simulated": 2449119,
+      "post_pulses_simulated": 19327435,
+      "longest_pre_cycle": 143,
+      "longest_post_cycle": 230,
+      "unfinished_pre_cycles": 0,
+      "unfinished_post_cycles": 0,
+      "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+      "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+      "seed": 8982783166644746145,
+      "stream_seeds": [
+        3249663551499358735,
+        7272468190763523312
+      ],
+      "threshold": 12.253224857141857,
+      "kind": "entangled",
+      "n": 1,
+      "max_steps": 100000,
+      "parameters": {
+        "N": 100.0,
+        "Na": 0.1,
+        "eta1": 0.9,
+        "eta2": 0.85
+      }
+    },
+    {
+      "arl": 1992841.9393658056,
+      "arl_se": 4176.422510003461,
+      "relative_se": 0.0020957118713251033,
+      "approx_95_interval": [
+        1984672.9402031905,
+        2001044.56248024
+      ],
+      "mean_pre_cycle_length": 2.4476,
+      "mean_pre_cycle_length_se": 0.003913964429976026,
+      "cycle_alarm_probability": 1.2281957498239486e-06,
+      "cycle_alarm_probability_se": 1.6636853013122342e-09,
+      "success_weight_ess": 352749.102100774,
+      "largest_weight_fraction": 3.883493017201069e-06,
+      "max_log_success_weight": -12.253229324741447,
+      "diagnostics_passed": true,
+      "pre_cycles": 1000000,
+      "post_cycles": 1000000,
+      "pre_observed_alarm_cycles": 3,
+      "post_proposal_successes": 392767,
+      "pre_pulses_simulated": 2447600,
+      "post_pulses_simulated": 19339644,
+      "longest_pre_cycle": 134,
+      "longest_post_cycle": 234,
+      "unfinished_pre_cycles": 0,
+      "unfinished_post_cycles": 0,
+      "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+      "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only",
+      "seed": 3643265866281031325,
+      "stream_seeds": [
+        18290787308674132028,
+        7633637803516956343
+      ],
+      "threshold": 12.253224857141857,
+      "kind": "entangled",
+      "n": 1,
+      "max_steps": 100000,
+      "parameters": {
+        "N": 100.0,
+        "Na": 0.1,
+        "eta1": 0.9,
+        "eta2": 0.85
+      }
+    }
+  ],
+  "validation": {
+    "arl": 1995490.005618268,
+    "arl_se": 2965.3776759785633,
+    "relative_se": 0.001486039853684856,
+    "approx_95_interval": [
+      1989686.3214920848,
+      2001310.6184176155
+    ],
+    "mean_pre_cycle_length": 2.4483595,
+    "mean_pre_cycle_length_se": 0.002780686964670758,
+    "cycle_alarm_probability": 1.2269465109355032e-06,
+    "cycle_alarm_probability_se": 1.1758354200627042e-09,
+    "success_weight_ess": 705009.518737059,
+    "largest_weight_fraction": 1.943731104537246e-06,
+    "max_log_success_weight": -12.253225430235608,
+    "diagnostics_passed": true,
+    "pre_cycles": 2000000,
+    "post_cycles": 2000000,
+    "pre_observed_alarm_cycles": 4,
+    "post_proposal_successes": 785129,
+    "pre_pulses_simulated": 4896719,
+    "post_pulses_simulated": 38667079,
+    "longest_pre_cycle": 143,
+    "longest_post_cycle": 234,
+    "unfinished_pre_cycles": 0,
+    "unfinished_post_cycles": 0,
+    "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+    "diagnostic_rule": "ESS >=1000, largest weight fraction <=1%, relative SE <=2%; necessary screening only"
+  },
+  "replicate_z": 0.89389725780227,
+  "replicates_agree": true,
+  "arl_match": {
+    "ratio": 0.9996820157358615,
+    "se": 0.0022788855942267442,
+    "approx_95_interval": [
+      0.995215399971177,
+      1.004148631500546
+    ],
+    "passed": true
+  },
+  "delay": {
+    "1": {
+      "trials": 50000,
+      "change_at": 1,
+      "horizon": 100000,
+      "false_alarms": 0,
+      "false_alarm_probability": 0.0,
+      "false_alarm_probability_se": 0.0,
+      "survivors": 50000,
+      "post_change_censored": 0,
+      "conditional_delay": 48.2415,
+      "conditional_delay_se": 0.08541543578846518,
+      "restricted_conditional_delay": 48.2415,
+      "restricted_conditional_delay_se": 0.08541543578846518
+    },
+    "1005": {
+      "trials": 50000,
+      "change_at": 1005,
+      "horizon": 100000,
+      "false_alarms": 19,
+      "false_alarm_probability": 0.00038,
+      "false_alarm_probability_se": 8.716141348096644e-05,
+      "survivors": 49981,
+      "post_change_censored": 0,
+      "conditional_delay": 46.54768812148617,
+      "conditional_delay_se": 0.08696308121886756,
+      "restricted_conditional_delay": 46.54768812148617,
+      "restricted_conditional_delay_se": 0.08696308121886756
+    }
+  }
+}

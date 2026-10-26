@@ -1,0 +1,192 @@
+{
+  "kind": "entangled",
+  "label": "Squeezed",
+  "Na": 0.5,
+  "original_threshold": 12.491721446343767,
+  "author_delay": 22.6968,
+  "fit": {
+    "threshold": 10.25862877438869,
+    "author_delay_target": 22.6968,
+    "cells": 256,
+    "history": [
+      {
+        "threshold": 0.0,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 0.5339680635743662,
+        "false_alarm_probability": 1.0,
+        "log_survival_to_change": -368.1979566770208,
+        "post_linear_residual": 0.0,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 12.491721446343767,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 27.992890459384594,
+        "false_alarm_probability": 0.0004962191411287376,
+        "log_survival_to_change": -0.000496342298590494,
+        "post_linear_residual": 1.9539925233402755e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 0.0,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 0.5339680635743662,
+        "false_alarm_probability": 1.0,
+        "log_survival_to_change": -368.1979566770208,
+        "post_linear_residual": 0.0,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 12.491721446343767,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 27.992890459384594,
+        "false_alarm_probability": 0.0004962191411287376,
+        "log_survival_to_change": -0.000496342298590494,
+        "post_linear_residual": 1.9539925233402755e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 10.082403053595563,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 22.279008327586524,
+        "false_alarm_probability": 0.0055335064923043645,
+        "log_survival_to_change": -0.005548873052880414,
+        "post_linear_residual": 2.1316282072803006e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 10.258569298797065,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 22.696658992954376,
+        "false_alarm_probability": 0.004640003512812413,
+        "log_survival_to_change": -0.004650801744615257,
+        "post_linear_residual": 2.4868995751603507e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 10.25862877438869,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 22.696800002453315,
+        "false_alarm_probability": 0.004639727594176663,
+        "log_survival_to_change": -0.00465052453978637,
+        "post_linear_residual": 1.7763568394002505e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      },
+      {
+        "threshold": 10.258628769388686,
+        "change_at": 1005,
+        "cells": 256,
+        "conditional_delay": 22.696799990598922,
+        "false_alarm_probability": 0.004639727617165632,
+        "log_survival_to_change": -0.004650524562882498,
+        "post_linear_residual": 1.7763568394002505e-14,
+        "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+      }
+    ],
+    "purpose": "counterfactual inverse delay in our fixed model; not an estimate of the author threshold"
+  },
+  "seeds": [
+    7450042523517808061,
+    3188698876619320286,
+    3209795874377124344
+  ],
+  "validation": {
+    "arl": 212184.62881053032,
+    "arl_se": 998.686454568457,
+    "relative_se": 0.00470668615425593,
+    "approx_95_interval": [
+      210236.20438735874,
+      214151.11081680882
+    ],
+    "mean_pre_cycle_length": 1.979548,
+    "mean_pre_cycle_length_se": 0.0026026756404931616,
+    "cycle_alarm_probability": 9.329365708991258e-06,
+    "cycle_alarm_probability_se": 4.216237614410422e-08,
+    "success_weight_ess": 46676.14427757176,
+    "max_log_success_weight": -8.131963486952998,
+    "largest_weight_fraction": 3.151236607152789e-05,
+    "diagnostics_passed": true,
+    "pre_cycles": 1000000,
+    "post_cycles": 1000000,
+    "longest_pre_cycle": 91,
+    "longest_post_cycle": 97,
+    "uncertainty_method": "pooled independent cycle moments; delta SE; log-scale approximate 95% interval",
+    "pre_observed_alarm_cycles": 10,
+    "post_proposal_successes": 56124,
+    "pre_pulses_simulated": 1979548,
+    "post_pulses_simulated": 3120255,
+    "unfinished_pre_cycles": 0,
+    "unfinished_post_cycles": 0,
+    "kind": "entangled",
+    "n": 1,
+    "threshold": 10.25862877438869,
+    "parameters": {
+      "N": 100.0,
+      "Na": 0.5,
+      "eta1": 0.9,
+      "eta2": 0.85
+    },
+    "max_steps": 100000,
+    "proposal": "adaptive",
+    "proposal_offset": 2.0
+  },
+  "repeat_z": 1.1688500138065603,
+  "delay": {
+    "trials": 50000,
+    "change_at": 1005,
+    "horizon": 5000,
+    "false_alarms": 234,
+    "false_alarm_probability": 0.00468,
+    "false_alarm_probability_se": 0.00030522442890437197,
+    "survivors": 49766,
+    "post_change_censored": 0,
+    "conditional_delay": 22.821826146364987,
+    "conditional_delay_se": 0.047695202517049694,
+    "restricted_conditional_delay": 22.821826146364987,
+    "restricted_conditional_delay_se": 0.047695202517049694
+  },
+  "delay_grid_checks": [
+    {
+      "threshold": 10.25862877438869,
+      "change_at": 1005,
+      "cells": 256,
+      "conditional_delay": 22.696800002453315,
+      "false_alarm_probability": 0.004639727594176663,
+      "log_survival_to_change": -0.00465052453978637,
+      "post_linear_residual": 1.7763568394002505e-14,
+      "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+    },
+    {
+      "threshold": 10.25862877438869,
+      "change_at": 1005,
+      "cells": 512,
+      "conditional_delay": 22.69704860033466,
+      "false_alarm_probability": 0.004634716363169748,
+      "log_survival_to_change": -0.004645489962326193,
+      "post_linear_residual": 2.930988785010413e-14,
+      "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+    },
+    {
+      "threshold": 10.25862877438869,
+      "change_at": 1005,
+      "cells": 1024,
+      "conditional_delay": 22.697110750587655,
+      "false_alarm_probability": 0.004633464219791361,
+      "log_survival_to_change": -0.0046442319893876234,
+      "post_linear_residual": 4.973799150320701e-14,
+      "method": "finite-volume absorbing pre-change propagation and post-change first-step solution"
+    }
+  ],
+  "numerical_arls": [
+    212058.16944083569,
+    212115.6059796198
+  ],
+  "checks_passed": true
+}

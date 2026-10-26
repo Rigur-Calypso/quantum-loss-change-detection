@@ -1,0 +1,2050 @@
+{
+  "passed": true,
+  "regenerated": true,
+  "checks": [
+    {
+      "name": "source hash: results_author_comparison/report.json",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e00_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e00_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e01_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e01_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e02_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e02_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e03_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e03_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e04_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e04_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e05_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e05_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e06_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e06_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e07_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e07_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e08_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e08_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: data/zenodo_17460928/prl_fig7_data",
+      "passed": true
+    },
+    {
+      "name": "source hash: data/zenodo_17460928/plot_PRL_figs.m",
+      "passed": true
+    },
+    {
+      "name": "source hash: data/zenodo_17460928/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/report.json",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/predictions.csv",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_00.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_01.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_02.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_03.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_04.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_05.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_06.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_07.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_08.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_09.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_10.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_11.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_12.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_13.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_14.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_15.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_16.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_channel_diagnostics/runs_17.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e00_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e00_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e00_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e01_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e01_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e01_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e02_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e02_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e02_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e03_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e03_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e03_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e04_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e04_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e04_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e05_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e05_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e05_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e06_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e06_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e06_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e07_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e07_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e07_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e08_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e08_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source hash: results_author_comparison/f7_e08_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "coverage",
+      "passed": true
+    },
+    {
+      "name": "fixed previous fit",
+      "passed": true
+    },
+    {
+      "name": "unchanged physical settings",
+      "passed": true
+    },
+    {
+      "name": "same original source",
+      "passed": true
+    },
+    {
+      "name": "prior scalar experiment passed",
+      "passed": true
+    },
+    {
+      "name": "row 0: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 0: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 0: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 0: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 0: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 0: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 0: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 0: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 1: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 1: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 1: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 1: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 1: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 1: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 1: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 1: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 2: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 2: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 2: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 2: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 2: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 2: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 2: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 2: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 3: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 3: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 3: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 3: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 3: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 3: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 3: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 3: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 4: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 4: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 4: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 4: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 4: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 4: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 4: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 4: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 5: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 5: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 5: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 5: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 5: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 5: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 5: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 5: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 6: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 6: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 6: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 6: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 6: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 6: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 6: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 6: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 7: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 7: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 7: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 7: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 7: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 7: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 7: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 7: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 8: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 8: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 8: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 8: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 8: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 8: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 8: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 8: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 9: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 9: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 9: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 9: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 9: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 9: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 9: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 9: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 10: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 10: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 10: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 10: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 10: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 10: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 10: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 10: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 10: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 10: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 10: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 10: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 10: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 10: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 10: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 10: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 11: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 11: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 11: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 11: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 11: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 11: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 11: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 11: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 11: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 11: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 11: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 11: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 11: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 11: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 11: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 11: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 12: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 12: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 12: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 12: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 12: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 12: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 12: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 12: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 12: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 12: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 12: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 12: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 12: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 12: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 12: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 12: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 13: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 13: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 13: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 13: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 13: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 13: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 13: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 13: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 13: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 13: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 13: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 13: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 13: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 13: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 13: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 13: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 14: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 14: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 14: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 14: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 14: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 14: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 14: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 14: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 14: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 14: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 14: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 14: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 14: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 14: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 14: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 14: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 15: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 15: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 15: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 15: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 15: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 15: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 15: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 15: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 15: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 15: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 15: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 15: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 15: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 15: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 15: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 15: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 16: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 16: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 16: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 16: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 16: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 16: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 16: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 16: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 16: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 16: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 16: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 16: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 16: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 16: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 16: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 16: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 17: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 17: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 17: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 17: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 17: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 17: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 17: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 17: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 17: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 17: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 17: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 17: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 17: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 17: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 17: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 17: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 18: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 18: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 18: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 18: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 18: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 18: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 18: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 18: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 18: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 18: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 18: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 18: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 18: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 18: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 18: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 18: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 19: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 19: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 19: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 19: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 19: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 19: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 19: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 19: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 19: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 19: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 19: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 19: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 19: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 19: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 19: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 19: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 20: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 20: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 20: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 20: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 20: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 20: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 20: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 20: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 20: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 20: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 20: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 20: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 20: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 20: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 20: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 20: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 21: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 21: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 21: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 21: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 21: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 21: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 21: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 21: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 21: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 21: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 21: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 21: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 21: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 21: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 21: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 21: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 22: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 22: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 22: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 22: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 22: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 22: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 22: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 22: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 22: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 22: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 22: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 22: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 22: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 22: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 22: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 22: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 23: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 23: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 23: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 23: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 23: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 23: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 23: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 23: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 23: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 23: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 23: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 23: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 23: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 23: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 23: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 23: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 24: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 24: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 24: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 24: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 24: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 24: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 24: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 24: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 24: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 24: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 24: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 24: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 24: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 24: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 24: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 24: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 25: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 25: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 25: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 25: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 25: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 25: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 25: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 25: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 25: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 25: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 25: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 25: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 25: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 25: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 25: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 25: comparison",
+      "passed": true
+    },
+    {
+      "name": "row 26: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 26: unchanged detector threshold",
+      "passed": true
+    },
+    {
+      "name": "row 26: original ARL evidence",
+      "passed": true
+    },
+    {
+      "name": "row 26: author and original mapping",
+      "passed": true
+    },
+    {
+      "name": "row 26: two independent repeats",
+      "passed": true
+    },
+    {
+      "name": "row 26: seed 0",
+      "passed": true
+    },
+    {
+      "name": "row 26: raw trial count 0",
+      "passed": true
+    },
+    {
+      "name": "row 26: raw summary 0",
+      "passed": true
+    },
+    {
+      "name": "row 26: exact seeded regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 26: seed 1",
+      "passed": true
+    },
+    {
+      "name": "row 26: raw trial count 1",
+      "passed": true
+    },
+    {
+      "name": "row 26: raw summary 1",
+      "passed": true
+    },
+    {
+      "name": "row 26: exact seeded regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 26: raw pooling",
+      "passed": true
+    },
+    {
+      "name": "row 26: repeatability and censoring",
+      "passed": true
+    },
+    {
+      "name": "row 26: comparison",
+      "passed": true
+    },
+    {
+      "name": "entangled count",
+      "passed": true
+    },
+    {
+      "name": "held-out count",
+      "passed": true
+    },
+    {
+      "name": "combined CSV",
+      "passed": true
+    },
+    {
+      "name": "training excluded from 44 held-out cases",
+      "passed": true
+    },
+    {
+      "name": "status",
+      "passed": true
+    }
+  ]
+}

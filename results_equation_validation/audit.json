@@ -1,0 +1,463 @@
+{
+  "passed": true,
+  "count": 114,
+  "regenerated": true,
+  "checks": [
+    {
+      "name": "source unchanged",
+      "passed": true
+    },
+    {
+      "name": "four independent receiver cases and six dense cases",
+      "passed": true
+    },
+    {
+      "name": "case 0 independent seed",
+      "passed": true
+    },
+    {
+      "name": "case 0 sample size",
+      "passed": true
+    },
+    {
+      "name": "case 0 regenerated summary",
+      "passed": true
+    },
+    {
+      "name": "case 0 integrated KL",
+      "passed": true
+    },
+    {
+      "name": "case 0 normalized laws",
+      "passed": true
+    },
+    {
+      "name": "case 0 production agreement",
+      "passed": true
+    },
+    {
+      "name": "case 0 MC agrees with integral",
+      "passed": true
+    },
+    {
+      "name": "case 0 count moments",
+      "passed": true
+    },
+    {
+      "name": "case 0 exact raw count regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 0 independent law regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 1 independent seed",
+      "passed": true
+    },
+    {
+      "name": "case 1 sample size",
+      "passed": true
+    },
+    {
+      "name": "case 1 regenerated summary",
+      "passed": true
+    },
+    {
+      "name": "case 1 integrated KL",
+      "passed": true
+    },
+    {
+      "name": "case 1 normalized laws",
+      "passed": true
+    },
+    {
+      "name": "case 1 production agreement",
+      "passed": true
+    },
+    {
+      "name": "case 1 MC agrees with integral",
+      "passed": true
+    },
+    {
+      "name": "case 1 count moments",
+      "passed": true
+    },
+    {
+      "name": "case 1 exact raw count regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 1 independent law regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 2 independent seed",
+      "passed": true
+    },
+    {
+      "name": "case 2 sample size",
+      "passed": true
+    },
+    {
+      "name": "case 2 regenerated summary",
+      "passed": true
+    },
+    {
+      "name": "case 2 integrated KL",
+      "passed": true
+    },
+    {
+      "name": "case 2 normalized laws",
+      "passed": true
+    },
+    {
+      "name": "case 2 production agreement",
+      "passed": true
+    },
+    {
+      "name": "case 2 MC agrees with integral",
+      "passed": true
+    },
+    {
+      "name": "case 2 count moments",
+      "passed": true
+    },
+    {
+      "name": "case 2 exact raw count regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 2 independent law regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 3 independent seed",
+      "passed": true
+    },
+    {
+      "name": "case 3 sample size",
+      "passed": true
+    },
+    {
+      "name": "case 3 regenerated summary",
+      "passed": true
+    },
+    {
+      "name": "case 3 integrated KL",
+      "passed": true
+    },
+    {
+      "name": "case 3 normalized laws",
+      "passed": true
+    },
+    {
+      "name": "case 3 production agreement",
+      "passed": true
+    },
+    {
+      "name": "case 3 MC agrees with integral",
+      "passed": true
+    },
+    {
+      "name": "case 3 count moments",
+      "passed": true
+    },
+    {
+      "name": "case 3 exact raw count regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 3 independent law regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 0 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 0 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 0 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 0 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 0 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 1 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 1 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 1 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 1 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 1 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 2 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 2 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 2 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 2 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 2 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 3 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 3 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 3 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 3 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 3 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 4 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 4 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 4 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 4 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 4 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "dense 5 seed",
+      "passed": true
+    },
+    {
+      "name": "dense 5 sample size",
+      "passed": true
+    },
+    {
+      "name": "dense 5 raw summary",
+      "passed": true
+    },
+    {
+      "name": "dense 5 Gaussian entropy agreement",
+      "passed": true
+    },
+    {
+      "name": "dense 5 exact sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "energy 0 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 0 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 0 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 1 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 1 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 1 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 2 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 2 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 2 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 3 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 3 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 3 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 4 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 4 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 4 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 5 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 5 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 5 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 6 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 6 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 6 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 7 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 7 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 7 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 8 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 8 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 8 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 9 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 9 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 9 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 10 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 10 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 10 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "energy 11 recompute",
+      "passed": true
+    },
+    {
+      "name": "energy 11 source anchor",
+      "passed": true
+    },
+    {
+      "name": "energy 11 fit versus holdout",
+      "passed": true
+    },
+    {
+      "name": "one point only fitted",
+      "passed": true
+    },
+    {
+      "name": "distinct seeds",
+      "passed": true
+    },
+    {
+      "name": "CSV matches report",
+      "passed": true
+    },
+    {
+      "name": "reported pass",
+      "passed": true
+    },
+    {
+      "name": "plot png",
+      "passed": true
+    },
+    {
+      "name": "plot svg",
+      "passed": true
+    }
+  ]
+}

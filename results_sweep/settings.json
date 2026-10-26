@@ -1,0 +1,19 @@
+{
+  "output": "results_sweep",
+  "seed": 20261023,
+  "Na": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "target_arl": [
+    500.0,
+    1000.0,
+    5000.0
+  ],
+  "calibration_trials": 30000,
+  "validation_trials": 50000,
+  "delay_trials": 30000,
+  "match_tolerance": 0.05
+}

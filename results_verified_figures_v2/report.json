@@ -1,0 +1,299 @@
+{
+  "source_url": "https://arxiv.org/pdf/2503.12276v2",
+  "source_sha256": "1cfd4db552f854c5d3138df9a0798d0f8b017bf13aa22e0a2a635b26ffc8a5da",
+  "settings": {
+    "figure5": {
+      "N": 100,
+      "Na": 1,
+      "tap": 0.9,
+      "phase_variance": 0.01,
+      "phase_sd": 0.1,
+      "fractional_amplitude_error": 0.01,
+      "loss_range_db": [
+        0,
+        6
+      ],
+      "thermal": 0,
+      "n": 8
+    },
+    "figure12": {
+      "N": 0,
+      "Na": 1,
+      "tap": 0.9,
+      "n": 8,
+      "loss_plot_range_db": [
+        0,
+        5
+      ],
+      "finite_grid_db": [
+        0.05,
+        5
+      ],
+      "residual_photons": [
+        0.0001,
+        1e-05
+      ]
+    },
+    "grid_note": "Axis ranges and legend parameters verified from PDF; original sample grids unavailable."
+  },
+  "figure12_zero_loss_photon_counting": "infinite (pre-change survival probability 1)",
+  "refinement": [
+    {
+      "loss_db": 0,
+      "curve": "coherent_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 0,
+      "curve": "squeezed_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 0,
+      "curve": "entangled_n8_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 0,
+      "curve": "coherent_phase",
+      "relative_change": 1.5543122344752192e-15
+    },
+    {
+      "loss_db": 0,
+      "curve": "squeezed_phase",
+      "relative_change": 9.769962616701378e-15
+    },
+    {
+      "loss_db": 0,
+      "curve": "kennedy_pnr",
+      "relative_change": 5.995204332975845e-15
+    },
+    {
+      "loss_db": 0,
+      "curve": "kennedy_onoff",
+      "relative_change": 3.4416913763379853e-15
+    },
+    {
+      "loss_db": 2,
+      "curve": "coherent_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 2,
+      "curve": "squeezed_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 2,
+      "curve": "entangled_n8_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 2,
+      "curve": "coherent_phase",
+      "relative_change": 8.881784197001252e-16
+    },
+    {
+      "loss_db": 2,
+      "curve": "squeezed_phase",
+      "relative_change": 8.881784197001252e-16
+    },
+    {
+      "loss_db": 2,
+      "curve": "kennedy_pnr",
+      "relative_change": 7.993605777301127e-15
+    },
+    {
+      "loss_db": 2,
+      "curve": "kennedy_onoff",
+      "relative_change": 2.4424906541753444e-15
+    },
+    {
+      "loss_db": 4,
+      "curve": "coherent_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 4,
+      "curve": "squeezed_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 4,
+      "curve": "entangled_n8_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 4,
+      "curve": "coherent_phase",
+      "relative_change": 1.1102230246251565e-15
+    },
+    {
+      "loss_db": 4,
+      "curve": "squeezed_phase",
+      "relative_change": 3.774758283725532e-15
+    },
+    {
+      "loss_db": 4,
+      "curve": "kennedy_pnr",
+      "relative_change": 2.220446049250313e-15
+    },
+    {
+      "loss_db": 4,
+      "curve": "kennedy_onoff",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 6,
+      "curve": "coherent_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 6,
+      "curve": "squeezed_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 6,
+      "curve": "entangled_n8_ideal",
+      "relative_change": 0.0
+    },
+    {
+      "loss_db": 6,
+      "curve": "coherent_phase",
+      "relative_change": 9.992007221626409e-16
+    },
+    {
+      "loss_db": 6,
+      "curve": "squeezed_phase",
+      "relative_change": 2.1094237467877974e-15
+    },
+    {
+      "loss_db": 6,
+      "curve": "kennedy_pnr",
+      "relative_change": 9.992007221626409e-15
+    },
+    {
+      "loss_db": 6,
+      "curve": "kennedy_onoff",
+      "relative_change": 0.0
+    }
+  ],
+  "figure5_kennedy_digitization": [
+    {
+      "loss_db": 0,
+      "source_y_pixel": 538,
+      "approx_published_kennedy": 0.004857250845491116,
+      "pixel_uncertainty": 3,
+      "multiplicative_uncertainty": 1.0560114789633988,
+      "pnr": 0.05899705528229596,
+      "onoff": 0.05721604619331752,
+      "pnr_to_digitized_ratio": 12.146182513316496
+    },
+    {
+      "loss_db": 2,
+      "source_y_pixel": 566,
+      "approx_published_kennedy": 0.0029206750097601117,
+      "pixel_uncertainty": 3,
+      "multiplicative_uncertainty": 1.0560114789633988,
+      "pnr": 0.03644850733422958,
+      "onoff": 0.0352953398369773,
+      "pnr_to_digitized_ratio": 12.479480672251604
+    },
+    {
+      "loss_db": 4,
+      "source_y_pixel": 594,
+      "approx_published_kennedy": 0.0017562079423087155,
+      "pixel_uncertainty": 3,
+      "multiplicative_uncertainty": 1.0560114789633988,
+      "pnr": 0.022091967279911737,
+      "onoff": 0.021404575427110994,
+      "pnr_to_digitized_ratio": 12.579357345844581
+    },
+    {
+      "loss_db": 6,
+      "source_y_pixel": 619,
+      "approx_published_kennedy": 0.001115160243702464,
+      "pixel_uncertainty": 3,
+      "multiplicative_uncertainty": 1.0560114789633988,
+      "pnr": 0.013300730955225683,
+      "onoff": 0.012931632202181936,
+      "pnr_to_digitized_ratio": 11.927192554018678
+    }
+  ],
+  "figure12_digitization": [
+    {
+      "curve": "coherent",
+      "loss_db": 1.0,
+      "source_y_pixel": 594,
+      "approx_published": 0.00414149832833107,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.004183574140773566,
+      "relative_difference": 0.01015956282166397
+    },
+    {
+      "curve": "squeezed_vacuum",
+      "loss_db": 1.0,
+      "source_y_pixel": 478,
+      "approx_published": 0.008207531307524725,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.008218740275067193,
+      "relative_difference": 0.001365692937679297
+    },
+    {
+      "curve": "entangled_n8",
+      "loss_db": 1.0,
+      "source_y_pixel": 657,
+      "approx_published": 0.0028564449869162402,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.002904072638191344,
+      "relative_difference": 0.016673750586221336
+    },
+    {
+      "curve": "photon_homodyne",
+      "loss_db": 1.0,
+      "source_y_pixel": 549,
+      "approx_published": 0.00540000753963769,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.005427024348627813,
+      "relative_difference": 0.005003105790466478
+    },
+    {
+      "curve": "photon_counting",
+      "loss_db": 1.0,
+      "source_y_pixel": 345,
+      "approx_published": 0.01798049056489033,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.017786158004084673,
+      "relative_difference": -0.010807967674982155
+    },
+    {
+      "curve": "kennedy_pnr_1e4",
+      "loss_db": 1.0,
+      "source_y_pixel": 491,
+      "approx_published": 0.0076018954957715506,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.007667716392628669,
+      "relative_difference": 0.008658484833648394
+    },
+    {
+      "curve": "kennedy_pnr_1e5",
+      "loss_db": 1.0,
+      "source_y_pixel": 435,
+      "approx_published": 0.010576154460653815,
+      "pixel_uncertainty": 5,
+      "multiplicative_uncertainty": 1.0299214359934366,
+      "equation_value": 0.010714483641352288,
+      "relative_difference": 0.013079345731295433
+    }
+  ],
+  "fixed_seed_max_identity_error": 6.661338147750939e-16,
+  "figure4_issue": "At fixed seed, A/n+B with A>=0 implies n=1 >= n=2 >= n=4. The published inset places n=2 above n=1. Equation and plotted ordering are unresolved; no curve-matching adjustment applied.",
+  "digitization_note": "Approximate manual raster readings: Figure 5 (971x734) black-marker centers +/-3 pixels; Figure 12 (1226x976), seven curves at 1 dB +/-5 pixels. These are not author numeric data or statistical error bars."
+}

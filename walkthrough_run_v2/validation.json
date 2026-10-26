@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "same full numerical summary on both executions",
+    "coherent_runs.npz: null_stop",
+    "coherent_runs.npz: null_event",
+    "coherent_runs.npz: changed_stop",
+    "coherent_runs.npz: changed_event",
+    "squeezed_runs.npz: null_stop",
+    "squeezed_runs.npz: null_event",
+    "squeezed_runs.npz: changed_stop",
+    "squeezed_runs.npz: changed_event"
+  ],
+  "all_code_cells_executed": true,
+  "source_and_output_checksums_passed": true,
+  "scope": "Exact numeric summary and all stopping-time/event arrays match two independent executions; plot style changed between runs."
+}

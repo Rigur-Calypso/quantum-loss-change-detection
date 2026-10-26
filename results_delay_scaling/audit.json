@@ -1,0 +1,1075 @@
+{
+  "passed": true,
+  "count": 267,
+  "regenerated": true,
+  "checks": [
+    {
+      "name": "complete predeclared grid",
+      "passed": true
+    },
+    {
+      "name": "case 0: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 0: KL",
+      "passed": true
+    },
+    {
+      "name": "case 0: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 0: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 0: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 0: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 0: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 0: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 0: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 0: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 0: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 0: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 0: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 0: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 0: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 0: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 0: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 0: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 1: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 1: KL",
+      "passed": true
+    },
+    {
+      "name": "case 1: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 1: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 1: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 1: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 1: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 1: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 1: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 1: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 1: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 1: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 1: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 1: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 1: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 1: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 1: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 1: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 2: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 2: KL",
+      "passed": true
+    },
+    {
+      "name": "case 2: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 2: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 2: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 2: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 2: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 2: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 2: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 2: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 2: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 2: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 2: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 2: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 2: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 2: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 2: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 2: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 3: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 3: KL",
+      "passed": true
+    },
+    {
+      "name": "case 3: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 3: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 3: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 3: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 3: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 3: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 3: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 3: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 3: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 3: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 3: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 3: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 3: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 3: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 3: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 3: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 4: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 4: KL",
+      "passed": true
+    },
+    {
+      "name": "case 4: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 4: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 4: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 4: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 4: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 4: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 4: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 4: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 4: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 4: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 4: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 4: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 4: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 4: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 4: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 4: warm seed",
+      "passed": true
+    },
+    {
+      "name": "case 4: warm first-step solution",
+      "passed": true
+    },
+    {
+      "name": "case 4: warm raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 4: warm first alarms and censoring",
+      "passed": true
+    },
+    {
+      "name": "case 4: exact warm samples",
+      "passed": true
+    },
+    {
+      "name": "case 4: warm independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 4: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 5: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 5: KL",
+      "passed": true
+    },
+    {
+      "name": "case 5: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 5: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 5: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 5: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 5: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 5: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 5: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 5: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 5: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 5: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 5: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 5: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 5: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 5: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 5: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 5: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 6: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 6: KL",
+      "passed": true
+    },
+    {
+      "name": "case 6: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 6: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 6: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 6: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 6: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 6: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 6: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 6: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 6: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 6: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 6: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 6: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 6: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 6: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 6: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 6: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 7: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 7: KL",
+      "passed": true
+    },
+    {
+      "name": "case 7: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 7: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 7: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 7: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 7: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 7: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 7: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 7: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 7: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 7: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 7: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 7: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 7: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 7: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 7: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 7: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 8: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 8: KL",
+      "passed": true
+    },
+    {
+      "name": "case 8: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 8: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 8: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 8: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 8: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 8: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 8: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 8: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 8: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 8: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 8: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 8: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 8: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 8: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 8: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 8: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 9: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 9: KL",
+      "passed": true
+    },
+    {
+      "name": "case 9: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 9: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 9: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 9: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 9: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 9: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 9: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 9: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 9: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 9: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 9: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 9: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 9: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 9: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 9: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 9: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 10: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 10: KL",
+      "passed": true
+    },
+    {
+      "name": "case 10: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 10: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 10: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 10: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 10: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 10: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 10: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 10: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 10: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 10: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 10: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 10: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 10: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 10: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 10: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 10: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 11: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 11: KL",
+      "passed": true
+    },
+    {
+      "name": "case 11: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 11: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 11: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 11: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 11: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 11: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 11: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 11: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 11: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 11: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 11: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 11: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 11: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 11: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 11: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 11: warm seed",
+      "passed": true
+    },
+    {
+      "name": "case 11: warm first-step solution",
+      "passed": true
+    },
+    {
+      "name": "case 11: warm raw summary",
+      "passed": true
+    },
+    {
+      "name": "case 11: warm first alarms and censoring",
+      "passed": true
+    },
+    {
+      "name": "case 11: exact warm samples",
+      "passed": true
+    },
+    {
+      "name": "case 11: warm independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 11: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 12: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 12: KL",
+      "passed": true
+    },
+    {
+      "name": "case 12: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 12: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 12: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 12: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 12: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 12: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 12: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 12: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 12: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 12: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 12: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 12: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 12: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 12: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 12: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 12: reported status",
+      "passed": true
+    },
+    {
+      "name": "case 13: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "case 13: KL",
+      "passed": true
+    },
+    {
+      "name": "case 13: numerical ARL grids",
+      "passed": true
+    },
+    {
+      "name": "case 13: target calibrated",
+      "passed": true
+    },
+    {
+      "name": "case 13: post first-step grids",
+      "passed": true
+    },
+    {
+      "name": "case 13: sample-count convention",
+      "passed": true
+    },
+    {
+      "name": "case 13: Eq1 prediction",
+      "passed": true
+    },
+    {
+      "name": "case 13: Eq1 ratio",
+      "passed": true
+    },
+    {
+      "name": "case 13: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "case 13: raw weighted ARL",
+      "passed": true
+    },
+    {
+      "name": "case 13: ARL independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 13: cold raw first-alarm summary",
+      "passed": true
+    },
+    {
+      "name": "case 13: cold complete and no pre-change alarms",
+      "passed": true
+    },
+    {
+      "name": "case 13: exact cold sample regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 13: delay independent agreement",
+      "passed": true
+    },
+    {
+      "name": "case 13: exact ARL regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 13: exact cycle-array regeneration",
+      "passed": true
+    },
+    {
+      "name": "case 13: reported status",
+      "passed": true
+    },
+    {
+      "name": "CSV rows",
+      "passed": true
+    },
+    {
+      "name": "report passed",
+      "passed": true
+    }
+  ]
+}

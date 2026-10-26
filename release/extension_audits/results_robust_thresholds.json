@@ -1,0 +1,2167 @@
+{
+  "passed": true,
+  "regenerated": false,
+  "regenerated_calibration": false,
+  "checks": [
+    {
+      "name": "source results_author_comparison/report.json",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "scope",
+      "passed": true
+    },
+    {
+      "name": "model 0: mapping and seed allocation",
+      "passed": true
+    },
+    {
+      "name": "model 0: four fixed selection rounds",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 0 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 1 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 2 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 0: round 3 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 0: frozen conservative threshold",
+      "passed": true
+    },
+    {
+      "name": "model 1: mapping and seed allocation",
+      "passed": true
+    },
+    {
+      "name": "model 1: four fixed selection rounds",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 0 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 1 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 2 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 1: round 3 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 1: frozen conservative threshold",
+      "passed": true
+    },
+    {
+      "name": "model 2: mapping and seed allocation",
+      "passed": true
+    },
+    {
+      "name": "model 2: four fixed selection rounds",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 0 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 1 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 2 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 2: round 3 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 2: frozen conservative threshold",
+      "passed": true
+    },
+    {
+      "name": "model 3: mapping and seed allocation",
+      "passed": true
+    },
+    {
+      "name": "model 3: four fixed selection rounds",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 0 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 1 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 2 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 3: round 3 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 3: frozen conservative threshold",
+      "passed": true
+    },
+    {
+      "name": "model 4: mapping and seed allocation",
+      "passed": true
+    },
+    {
+      "name": "model 4: four fixed selection rounds",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 0 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 1 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 2 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 threshold",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 grid 0",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 grid 1",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 grid 2",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 grid 3",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 grid 4",
+      "passed": true
+    },
+    {
+      "name": "model 4: round 3 worst grid point",
+      "passed": true
+    },
+    {
+      "name": "model 4: frozen conservative threshold",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 0: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 1: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 2: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 3: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 4: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 5: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 6: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 7: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 8: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 9: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 10: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 11: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 12: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 13: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 14: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 15: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 16: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 17: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 18: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 19: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 20: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 21: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 22: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 23: classification",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: mapping and thresholds",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: raw moments and weights 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: count and metadata 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: law streams and diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: raw moments and weights 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: count and metadata 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: law streams and diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: pooled sufficient moments",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: adjusted lower ARL",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: independent repetitions",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: baseline raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: conservative raw first alarms",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: independent delay difference",
+      "passed": true
+    },
+    {
+      "name": "holdout 24: classification",
+      "passed": true
+    },
+    {
+      "name": "selection independent of holdouts",
+      "passed": true
+    },
+    {
+      "name": "CSV",
+      "passed": true
+    },
+    {
+      "name": "status",
+      "passed": true
+    }
+  ]
+}

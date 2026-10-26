@@ -1,0 +1,910 @@
+{
+  "passed": false,
+  "regenerated": true,
+  "checks": [
+    {
+      "name": "source results_author_comparison/report.json",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m0/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m1/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "scope",
+      "passed": true
+    },
+    {
+      "name": "fixed settings",
+      "passed": true
+    },
+    {
+      "name": "physical grid",
+      "passed": true
+    },
+    {
+      "name": "row 0: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 0: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 0: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 0: mesh refinement",
+      "passed": false
+    },
+    {
+      "name": "row 0: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 1: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 1: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 1: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 1: mesh refinement",
+      "passed": false
+    },
+    {
+      "name": "row 1: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 2: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 2: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 2: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 2: mesh refinement",
+      "passed": false
+    },
+    {
+      "name": "row 2: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 3: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 3: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 3: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 3: mesh refinement",
+      "passed": false
+    },
+    {
+      "name": "row 3: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 4: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 4: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 4: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 4: mesh refinement",
+      "passed": false
+    },
+    {
+      "name": "row 4: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 5: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 5: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 5: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 5: mesh refinement",
+      "passed": true
+    },
+    {
+      "name": "row 5: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 6: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 6: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 6: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 6: mesh refinement",
+      "passed": true
+    },
+    {
+      "name": "row 6: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 7: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 7: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 7: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 7: mesh refinement",
+      "passed": true
+    },
+    {
+      "name": "row 7: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 8: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 8: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 8: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 8: mesh refinement",
+      "passed": true
+    },
+    {
+      "name": "row 8: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 9: model and frozen threshold",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 9: numerical ARL",
+      "passed": true
+    },
+    {
+      "name": "row 9: numerical timing",
+      "passed": true
+    },
+    {
+      "name": "row 9: mesh refinement",
+      "passed": true
+    },
+    {
+      "name": "row 9: cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw moments and likelihood summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent sampling-law seeds 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent numerical/renewal agreement 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: exact renewal regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 9: cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw moments and likelihood summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent sampling-law seeds 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent numerical/renewal agreement 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: exact renewal regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 9: repeated estimates",
+      "passed": true
+    },
+    {
+      "name": "row 9: raw changed ensemble",
+      "passed": true
+    },
+    {
+      "name": "row 9: independent delay agreement",
+      "passed": true
+    },
+    {
+      "name": "row 9: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 0: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 0: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 0: raw renewal summaries",
+      "passed": true
+    },
+    {
+      "name": "control 0: exact renewal regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 0: raw direct ensemble",
+      "passed": true
+    },
+    {
+      "name": "control 0: direct/renewal/numerical agreement",
+      "passed": true
+    },
+    {
+      "name": "control 0: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 1: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 1: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 1: raw renewal summaries",
+      "passed": true
+    },
+    {
+      "name": "control 1: exact renewal regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 1: raw direct ensemble",
+      "passed": true
+    },
+    {
+      "name": "control 1: direct/renewal/numerical agreement",
+      "passed": true
+    },
+    {
+      "name": "control 1: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 2: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 2: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 2: raw renewal summaries",
+      "passed": true
+    },
+    {
+      "name": "control 2: exact renewal regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 2: raw direct ensemble",
+      "passed": true
+    },
+    {
+      "name": "control 2: direct/renewal/numerical agreement",
+      "passed": true
+    },
+    {
+      "name": "control 2: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 3: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 3: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 3: raw renewal summaries",
+      "passed": true
+    },
+    {
+      "name": "control 3: exact renewal regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 3: raw direct ensemble",
+      "passed": true
+    },
+    {
+      "name": "control 3: direct/renewal/numerical agreement",
+      "passed": true
+    },
+    {
+      "name": "control 3: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "CSV",
+      "passed": true
+    },
+    {
+      "name": "status",
+      "passed": false
+    }
+  ]
+}

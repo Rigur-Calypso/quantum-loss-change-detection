@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this implementation and also the original paper and dataset."
+title: "Independent computational study of quantum-enhanced transmission-loss change detection"
+type: software
+authors:
+  - family-names: Kamal
+    given-names: Bhagyesh
+version: 0.1.0
+date-released: 2026-10-26
+url: "https://github.com/Rigur-Calypso/quantum-loss-change-detection"
+repository-code: "https://github.com/Rigur-Calypso/quantum-loss-change-detection"
+license: MIT
+abstract: "Independent Python implementation, partial numerical reproduction and robustness studies for arXiv:2503.12276v2. Published-figure discrepancies remain documented."

@@ -1,0 +1,926 @@
+{
+  "passed": true,
+  "regenerated": true,
+  "checks": [
+    {
+      "name": "source results_author_comparison/report.json",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m2/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m3/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "source results_author_comparison/f7_e00_m4/changed_runs.npz",
+      "passed": true
+    },
+    {
+      "name": "coverage",
+      "passed": true
+    },
+    {
+      "name": "fixed scope",
+      "passed": true
+    },
+    {
+      "name": "row 0: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 0: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 0: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 0: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 0: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 0: classification",
+      "passed": true
+    },
+    {
+      "name": "row 0: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 1: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 1: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 1: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 1: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 1: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 1: classification",
+      "passed": true
+    },
+    {
+      "name": "row 1: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 2: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 2: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 2: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 2: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 2: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 2: classification",
+      "passed": true
+    },
+    {
+      "name": "row 2: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 3: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 3: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 3: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 3: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 3: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 3: classification",
+      "passed": true
+    },
+    {
+      "name": "row 3: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 4: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 4: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 4: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 4: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 4: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 4: classification",
+      "passed": true
+    },
+    {
+      "name": "row 4: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 5: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 5: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 5: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 5: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 5: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 5: classification",
+      "passed": true
+    },
+    {
+      "name": "row 5: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 6: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 6: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 6: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 6: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 6: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 6: classification",
+      "passed": true
+    },
+    {
+      "name": "row 6: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 7: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 7: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 7: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 7: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 7: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 7: classification",
+      "passed": true
+    },
+    {
+      "name": "row 7: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "row 8: model mapping",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent seeds",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw cycle counts 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw summaries 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: correct actual-null metadata 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent law streams 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: weight diagnostics 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact cycle regeneration 0",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw cycle counts 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw summaries 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: correct actual-null metadata 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: independent law streams 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: weight diagnostics 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact cycle regeneration 1",
+      "passed": true
+    },
+    {
+      "name": "row 8: pooled moments",
+      "passed": true
+    },
+    {
+      "name": "row 8: repeatability",
+      "passed": true
+    },
+    {
+      "name": "row 8: raw changed runs",
+      "passed": true
+    },
+    {
+      "name": "row 8: no censored survivor",
+      "passed": true
+    },
+    {
+      "name": "row 8: classification",
+      "passed": true
+    },
+    {
+      "name": "row 8: exact changed regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 0: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 0: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 0: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 0: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 0: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 0: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 0: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 1: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 1: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 1: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 1: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 1: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 1: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 1: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 2: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 2: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 2: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 2: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 2: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 2: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 2: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 3: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 3: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 3: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 3: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 3: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 3: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 3: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 4: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 4: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 4: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 4: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 4: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 4: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 4: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 5: mapping and seeds",
+      "passed": true
+    },
+    {
+      "name": "control 5: cycle counts",
+      "passed": true
+    },
+    {
+      "name": "control 5: raw weighted summaries",
+      "passed": true
+    },
+    {
+      "name": "control 5: exact cycle regeneration",
+      "passed": true
+    },
+    {
+      "name": "control 5: raw direct runs",
+      "passed": true
+    },
+    {
+      "name": "control 5: independent direct agreement",
+      "passed": true
+    },
+    {
+      "name": "control 5: exact direct regeneration",
+      "passed": true
+    },
+    {
+      "name": "CSV",
+      "passed": true
+    },
+    {
+      "name": "status",
+      "passed": true
+    }
+  ]
+}

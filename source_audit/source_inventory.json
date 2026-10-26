@@ -1,0 +1,301 @@
+{
+  "checked_date": "2026-10-25",
+  "archives": [
+    {
+      "archive": "2503.12276v1.tar",
+      "sha256": "3637d868669ae23241550aab745c9cf3267366a4c7cf4649a6756db85b850d72",
+      "members": [
+        {
+          "name": "CRE_improvement.png",
+          "bytes": 461818,
+          "kind": "figure",
+          "sha256": "a6cc74bda9da442cdaeb825e899527463d1e65969ec43111117971a926885017"
+        },
+        {
+          "name": "CUSUM_squeezed.png",
+          "bytes": 1202861,
+          "kind": "figure",
+          "sha256": "13bc21a605578cf0681d6b61d954ed7a4e71b6d67a8f248473d7c863e33461e2"
+        },
+        {
+          "name": "CV_DV_comparison.png",
+          "bytes": 253386,
+          "kind": "figure",
+          "sha256": "060aa4f740959323bf226029af9634c764c30f6a1c79e9213e841ef183bede15"
+        },
+        {
+          "name": "DVaugmentation_sims.png",
+          "bytes": 1112235,
+          "kind": "figure",
+          "sha256": "9ce6141bc8878c07938dafd7b617e6f85c67b61005acb7bdf12fc4ba0902a4b0"
+        },
+        {
+          "name": "fixed_squeezing.png",
+          "bytes": 506690,
+          "kind": "figure",
+          "sha256": "4831c4f95f27978d41ddd401a4d0efcfc5a05ae7da512a110cb2d77334df0f2a"
+        },
+        {
+          "name": "Homodyne_Kennedy_comparison.png",
+          "bytes": 320954,
+          "kind": "figure",
+          "sha256": "a0c72343c442ab2dfab744dccc43d3d8f06d35e8e66194c96508b671af7cbe49"
+        },
+        {
+          "name": "LossChangeDetection.bbl",
+          "bytes": 18395,
+          "kind": "bibliography",
+          "sha256": "5bff8ba86c540922503be7518001b07eb32a7ad007aba27bcb393955788af5e8"
+        },
+        {
+          "name": "LossChangeDetection.tex",
+          "bytes": 67534,
+          "kind": "manuscript",
+          "sha256": "615d7ac32c865c71bb18e13d8f34098b4e6f629dab56a65e0186e9425fd1ed91"
+        },
+        {
+          "name": "System_EntanglementAugmentation.png",
+          "bytes": 458301,
+          "kind": "figure",
+          "sha256": "58a82e3c7068dda15ea9b9184b852dab1aded0b83cfe8c2b66ce4e344e3bc541"
+        },
+        {
+          "name": "system_figure.png",
+          "bytes": 361907,
+          "kind": "figure",
+          "sha256": "09156c2ffb03de243548f289bba99e0a337c9ef8f2049a6a0ad18a1fab7014ce"
+        },
+        {
+          "name": "System_SqueezingAugmentation.png",
+          "bytes": 314588,
+          "kind": "figure",
+          "sha256": "b9327020cdac25c69528c145c041718b06f6caae8d6e0646ca0e9d7e236ebd4b"
+        }
+      ],
+      "program_members": []
+    },
+    {
+      "archive": "2503.12276v2.tar",
+      "sha256": "26cc8362e507959113da3c8e17cafc80d99c6ef47a496315f39252f7b4b5c6db",
+      "members": [
+        {
+          "name": "00README.json",
+          "bytes": 228,
+          "kind": "metadata_or_other",
+          "sha256": "8a7c232417666d049dd0f142fab9dafcde540eba13c6543119fab5f5d2b82e4f"
+        },
+        {
+          "name": "CRE_improvement.png",
+          "bytes": 461818,
+          "kind": "figure",
+          "sha256": "a6cc74bda9da442cdaeb825e899527463d1e65969ec43111117971a926885017"
+        },
+        {
+          "name": "cusum_ARL.png",
+          "bytes": 260938,
+          "kind": "figure",
+          "sha256": "dfd8f444d77123e14bd4bb6e380acc26c32089556e3b94ffd191bc35a080ca54"
+        },
+        {
+          "name": "CUSUM_squeezed.png",
+          "bytes": 1202861,
+          "kind": "figure",
+          "sha256": "13bc21a605578cf0681d6b61d954ed7a4e71b6d67a8f248473d7c863e33461e2"
+        },
+        {
+          "name": "CV_DV_comparison.png",
+          "bytes": 253386,
+          "kind": "figure",
+          "sha256": "060aa4f740959323bf226029af9634c764c30f6a1c79e9213e841ef183bede15"
+        },
+        {
+          "name": "DVaugmentation_sims.png",
+          "bytes": 1112235,
+          "kind": "figure",
+          "sha256": "9ce6141bc8878c07938dafd7b617e6f85c67b61005acb7bdf12fc4ba0902a4b0"
+        },
+        {
+          "name": "fixed_squeezing.png",
+          "bytes": 506690,
+          "kind": "figure",
+          "sha256": "4831c4f95f27978d41ddd401a4d0efcfc5a05ae7da512a110cb2d77334df0f2a"
+        },
+        {
+          "name": "Imperfection_comparison.png",
+          "bytes": 87774,
+          "kind": "figure",
+          "sha256": "66d2a11d45ff44971509ed76b992cb6cdea50af360a5531a2603060233d12f2d"
+        },
+        {
+          "name": "Kennedy_homodyne.pdf",
+          "bytes": 31553,
+          "kind": "figure",
+          "sha256": "b4eda47eb391045733399a2dd4a11aeb46b19158ec6c75b51268881419f679ad"
+        },
+        {
+          "name": "LossChangeDetection.tex",
+          "bytes": 87035,
+          "kind": "manuscript",
+          "sha256": "382d7de0c787dc5feeedc9e0fc0f0a6c2b8598f0a941225ee20ef27e464532af"
+        },
+        {
+          "name": "System_EntanglementAugmentation.png",
+          "bytes": 458301,
+          "kind": "figure",
+          "sha256": "58a82e3c7068dda15ea9b9184b852dab1aded0b83cfe8c2b66ce4e344e3bc541"
+        },
+        {
+          "name": "system_figure.png",
+          "bytes": 361907,
+          "kind": "figure",
+          "sha256": "09156c2ffb03de243548f289bba99e0a337c9ef8f2049a6a0ad18a1fab7014ce"
+        },
+        {
+          "name": "System_SqueezingAugmentation.png",
+          "bytes": 314588,
+          "kind": "figure",
+          "sha256": "b9327020cdac25c69528c145c041718b06f6caae8d6e0646ca0e9d7e236ebd4b"
+        }
+      ],
+      "program_members": []
+    }
+  ],
+  "file_comparison": [
+    {
+      "file": "00README.json",
+      "v1_present": false,
+      "v2_present": true,
+      "identical_bytes": null
+    },
+    {
+      "file": "CRE_improvement.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "CUSUM_squeezed.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "CV_DV_comparison.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "DVaugmentation_sims.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "Homodyne_Kennedy_comparison.png",
+      "v1_present": true,
+      "v2_present": false,
+      "identical_bytes": null
+    },
+    {
+      "file": "Imperfection_comparison.png",
+      "v1_present": false,
+      "v2_present": true,
+      "identical_bytes": null
+    },
+    {
+      "file": "Kennedy_homodyne.pdf",
+      "v1_present": false,
+      "v2_present": true,
+      "identical_bytes": null
+    },
+    {
+      "file": "LossChangeDetection.bbl",
+      "v1_present": true,
+      "v2_present": false,
+      "identical_bytes": null
+    },
+    {
+      "file": "LossChangeDetection.tex",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": false
+    },
+    {
+      "file": "System_EntanglementAugmentation.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "System_SqueezingAugmentation.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "cusum_ARL.png",
+      "v1_present": false,
+      "v2_present": true,
+      "identical_bytes": null
+    },
+    {
+      "file": "fixed_squeezing.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "system_figure.png",
+      "v1_present": true,
+      "v2_present": true,
+      "identical_bytes": true
+    }
+  ],
+  "zenodo_record_id": 17460928,
+  "zenodo_public_versions": 1,
+  "zenodo_files": [
+    "prl_supplem_fig4b_data",
+    "prl_fig7_data",
+    "prl_fig3_data",
+    "plot_PRL_figs.m",
+    "PRL_Guha_Cherian-John_Basu_Main_Fig3.png",
+    "PRL_Guha_Cherian-John_Basu_Main_Fig7.png",
+    "PRL_Guha_Cherian-John_Basu_Supplement_Fig4b.png"
+  ],
+  "existing_author_file_checks": [
+    {
+      "name": "plot_PRL_figs.m",
+      "same_published_md5": true
+    },
+    {
+      "name": "prl_fig3_data",
+      "same_published_md5": true
+    },
+    {
+      "name": "prl_fig7_data",
+      "same_published_md5": true
+    },
+    {
+      "name": "prl_supplem_fig4b_data",
+      "same_published_md5": true
+    }
+  ],
+  "fixed_seed_figure_identical": true,
+  "old_kennedy_figure": "Homodyne_Kennedy_comparison.png",
+  "new_kennedy_figure": "Imperfection_comparison.png",
+  "limits": "No simulator found among inspected source members or released dataset files. Bounded public web searches did not identify an original repository. Private/unindexed sources and subscription supplemental material were not inspected.",
+  "input_sha256": {
+    "2503.12276v1.tar": "3637d868669ae23241550aab745c9cf3267366a4c7cf4649a6756db85b850d72",
+    "2503.12276v2.tar": "26cc8362e507959113da3c8e17cafc80d99c6ef47a496315f39252f7b4b5c6db",
+    "zenodo_record.json": "1a364e72d4d67e6d3e16c439e1b00cb4dfb71d2163c98aaba2c70b8a72a2578e",
+    "zenodo_versions.json": "4c846e9f1356719f865ebda1af531dc84d1b710f9045fa34334bfd1803c05d5d"
+  },
+  "sources": [
+    "https://arxiv.org/src/2503.12276v1",
+    "https://arxiv.org/src/2503.12276v2",
+    "https://zenodo.org/api/records/17460928",
+    "https://zenodo.org/api/records/17460928/versions",
+    "https://journals.aps.org/prl/abstract/10.1103/czg5-3y3d"
+  ]
+}

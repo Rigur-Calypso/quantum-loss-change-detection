@@ -1,0 +1,36 @@
+{
+  "record": "https://zenodo.org/records/17460928",
+  "doi": "10.5281/zenodo.17460928",
+  "retrieved_date": "2026-10-22",
+  "files": [
+    {
+      "name": "plot_PRL_figs.m",
+      "url": "https://zenodo.org/records/17460928/files/plot_PRL_figs.m?download=1",
+      "bytes": 3179,
+      "md5": "06ea1d59cdfc5d89ccc861b84a18e18f",
+      "sha256": "2da0757722ed003e7302f0b1df5e836ced74a85e18ff90cd6782000da8b8811e"
+    },
+    {
+      "name": "prl_fig3_data",
+      "url": "https://zenodo.org/records/17460928/files/prl_fig3_data?download=1",
+      "bytes": 869,
+      "md5": "e81c2e2624e9d046f0ad0f23ac794ecb",
+      "sha256": "004ddbe41f09dda66d953d0a38c397e1a1a6f98beaa46d255c5dc1b13ab47016"
+    },
+    {
+      "name": "prl_fig7_data",
+      "url": "https://zenodo.org/records/17460928/files/prl_fig7_data?download=1",
+      "bytes": 1573,
+      "md5": "c591ec563172641adcce9569d2f7b5a5",
+      "sha256": "85e02a763803b5c30e3dcf1319a9de7d2fdbd2bf16502a7ccd8021f42ae5c276"
+    },
+    {
+      "name": "prl_supplem_fig4b_data",
+      "url": "https://zenodo.org/records/17460928/files/prl_supplem_fig4b_data?download=1",
+      "bytes": 2825,
+      "md5": "49d62b9ee5f3ca562fc8ef83bb223811",
+      "sha256": "d225d84c8812041e7a8f7f9958b5204bd40b3b0b67a00a6bf55daeb894d0d114"
+    }
+  ],
+  "metadata_url": "https://zenodo.org/api/records/17460928"
+}

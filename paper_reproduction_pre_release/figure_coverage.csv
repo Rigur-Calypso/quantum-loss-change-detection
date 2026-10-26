@@ -1,0 +1,14 @@
+figure,status,implemented,remaining_limit,plot
+Eq.1,Finite-ARL scaling checked,Fourteen scalar settings; rare-event ARL and direct delay validation.,"Asymptotic trend, not an exact finite-delay formula or proof of a worst-case theorem.",results_delay_scaling/delay_scaling.png
+1,Observation models implemented,"Coherent, squeezed and entangled transmitter laws.","Hardware schematic, not an optical implementation.",
+2,Equations checked,"All coherent, squeezed and n=2–256 per-pulse entropy curves.",No original numeric figure array for pointwise comparison.,results_entangled/figure2_entangled.png
+3,Author-data difference remains,Eight unmodulated and eight BPSK energy settings; ARL validated.,Delay ratios differ from published data.,results_author_comparison/figure3_overlay.png
+4,Published ordering unresolved,"Fixed-seed equations, dense covariance and random checks agree.",Equations give n=1 ≥ n=2; published inset gives n=2 > n=1.,results_verified_figures_v2/fixed_seed_equation_check.png
+5,Published Kennedy curve unresolved,Legend settings verified; independent Eq.10 integration and sampling agree.,About 12-fold Kennedy gap; roughly 10-photon diagnostic is not the stated setting.,results_equation_validation/independent_checks.png
+6,Receiver laws implemented,"Homodyne, photon-resolving and binary receiver statistics.",No optical or electronic hardware implementation.,
+7,Author-data difference remains,45 settings: five detector families at nine energies; ARL validated.,Our mean delays are approximately 13.6–34.4% higher by family.,results_author_comparison/figure7_overlay.png
+8–10,Statistical network checked,"BPSK mixtures, displaced squeezed laws, Hadamard covariance propagation.",No capacity-achieving code or physical Green Machine.,
+11(a),Equation benchmark checked,"Single-photon quadrature law, CDF, sampler and entropy.",0.206340 agrees with quoted 0.2063; plot uses rounded tap.,results_paper_completion/photon_probe_comparisons.png
+11(b),Latency statistic differs,DV detector independently calibrated; CV and BPSK comparisons saved.,Our conditional first-alarm delay differs from source signed latency mean.,results_paper_completion/figure11b_comparison.png
+12,Sparse pixel agreement,Seven curves within 2% at 1 dB; legend settings verified.,"Sparse approximate pixels, not full numeric source data.",results_verified_figures_v2/verified_receiver_curves.png
+App.E.2,Ideal logical channel implemented,"Arbitrary dual-rail states, heralded loss, Page detection and two-bin timing.","No Duan-Kimble hardware dynamics, QKD security or optimal-tradeoff solution.",results_dual_rail/dual_rail.png

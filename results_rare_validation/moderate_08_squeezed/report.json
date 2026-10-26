@@ -1,0 +1,58 @@
+{
+  "identifier": "moderate_08_squeezed",
+  "phase": "moderate",
+  "source_condition": 8,
+  "Na": 0.0,
+  "model": "squeezed",
+  "pre": {
+    "mean": 9.486832980505138,
+    "variance": 0.25
+  },
+  "post": {
+    "mean": 9.219544457292887,
+    "variance": 0.25
+  },
+  "estimate": {
+    "arl": 5017.076860871978,
+    "arl_se": 37.60089090235204,
+    "relative_se": 0.0074945813957127475,
+    "approx_95_interval": [
+      4943.917761099723,
+      5091.318554275058
+    ],
+    "mean_pre_cycle_length": 3.0724499999999995,
+    "mean_pre_cycle_length_se": 0.017769844333833554,
+    "cycle_alarm_probability": 0.0006123984314376243,
+    "cycle_alarm_probability_se": 2.91894022736781e-06,
+    "pre_cycles": 100000,
+    "post_cycles": 100000,
+    "pre_observed_alarm_cycles": 70,
+    "post_proposal_successes": 32443,
+    "success_weight_ess": 30563.83298084414,
+    "largest_success_weight": 0.0025749727531841748,
+    "weight_upper_bound": 0.0025749785821826496,
+    "pre_pulses_simulated": 307245,
+    "post_pulses_simulated": 1269452,
+    "longest_pre_cycle": 121,
+    "longest_post_cycle": 177,
+    "unfinished_pre_cycles": 0,
+    "unfinished_post_cycles": 0,
+    "uncertainty_method": "independent-means delta SE; log-scale approximate 95% interval",
+    "seed": 11613005794929818323,
+    "stream_seeds": {
+      "pre": 18098426131112557038,
+      "post": 9249109459133926478
+    },
+    "threshold": 5.9619140625,
+    "max_steps": 100000
+  },
+  "comparison": {
+    "reference_arl": 4983.9863,
+    "reference_se": 22.246672639959375,
+    "combined_se": 43.68914556500387,
+    "relative_difference": 0.0066393763706731335,
+    "agreement_tolerance": 0.026297712073368187,
+    "agreement_passed": true,
+    "standardized_difference": 0.7574092018518437
+  }
+}

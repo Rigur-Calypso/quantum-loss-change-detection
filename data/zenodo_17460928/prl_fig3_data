@@ -1,0 +1,52 @@
+# Created by Octave 9.4.0, Mon Oct 27 00:07:32 2025 EDT <pbasu@MA15688PBASU>
+# name: ratio_SS_CS
+# type: matrix
+# rows: 1
+# columns: 8
+ 1.1950301723457053 1.422262408489487 1.6845986944272562 1.9842524334842824 2.3223560454190779 2.698539212241863 3.1105322966868822 3.5538682783205879
+
+
+# name: ratio_det_latency
+# type: matrix
+# rows: 1
+# columns: 8
+ 1.1739999999999999 1.375 1.748 2.0790000000000002 2.5649999999999999 3.2000000000000002 3.056 3.2549999999999999
+
+
+# name: ratio_det_latency_bpsk
+# type: matrix
+# rows: 1
+# columns: 8
+ 1.175 1.478 1.575 2.0449999999999999 2.5049999999999999 2.5750000000000002 3.4249999999999998 3.3500000000000001
+
+
+# name: N
+# type: scalar
+100
+
+
+# name: r_min
+# type: scalar
+0.10000000000000001
+
+
+# name: N_a
+# type: scalar
+1
+
+
+# name: cp
+# type: scalar
+1000
+
+
+# name: n
+# type: scalar
+5000
+
+
+# name: ARL0
+# type: scalar
+2000000
+
+

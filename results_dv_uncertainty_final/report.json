@@ -1,0 +1,126 @@
+{
+  "source_url": "https://zenodo.org/records/17460928",
+  "source_sha256": {
+    "data/zenodo_17460928/prl_supplem_fig4b_data": "d225d84c8812041e7a8f7f9958b5204bd40b3b0b67a00a6bf55daeb894d0d114",
+    "data/zenodo_17460928/manifest.json": "3fadf6a29811d6ba8cc29d0dd942392eca0d827aee0bf8cc19378cb0273263a5",
+    "results_paper_completion/report.json": "c96b69a8f96923db89b1492819dbe12da0ae6674412b6e8761b7fe661e55f53a",
+    "results_paper_completion/photon/changed.npz": "7fba9a58883f7002d183fe3bfbee0069a79af8b0ddbb58303cc1d5c8c01c93d0"
+  },
+  "bootstrap_replicates": 20000,
+  "bootstrap_method": "Ordinary independent empirical mean bootstrap; repeated lattice values grouped with a multinomial.",
+  "author_settings": {
+    "N": 100.0,
+    "N_a": 1.0,
+    "cp": 1000.0,
+    "n": 5000.0,
+    "ARL0": 2000000.0
+  },
+  "author_negative_entries": [
+    -844.0,
+    -129.0
+  ],
+  "author_zero_entries": 0,
+  "author_pulse_range_consistent_if_T_equals_lat_plus_cp": true,
+  "summaries": {
+    "author_signed": {
+      "n": 500,
+      "mean": 48.034,
+      "se": 2.0289413233969027,
+      "bootstrap_percentile_95": [
+        43.509949999999996,
+        51.244
+      ],
+      "seed": 10619298660957504466
+    },
+    "author_nonnegative_assuming_complete_first_alarms": {
+      "n": 498,
+      "mean": 50.18072289156626,
+      "se": 0.8938102335357109,
+      "bootstrap_percentile_95": [
+        48.451757028112446,
+        51.957881526104416
+      ],
+      "seed": 8898180313609378993
+    },
+    "ours_signed": {
+      "n": 30000,
+      "mean": 54.304066666666664,
+      "se": 0.15801681128301265,
+      "bootstrap_percentile_95": [
+        53.98632916666667,
+        54.607975
+      ],
+      "seed": 9281154898777146170
+    },
+    "ours_conditional": {
+      "n": 29983,
+      "mean": 54.639729179868596,
+      "se": 0.12890040664917599,
+      "bootstrap_percentile_95": [
+        54.38118183637395,
+        54.891571890738085
+      ],
+      "seed": 5784247621087249245
+    }
+  },
+  "differences": {
+    "signed": {
+      "point_difference_ours_minus_author": 6.270066666666665,
+      "relative_difference": 0.13053392735701097,
+      "independent_mean_se": 2.035085306918515,
+      "bootstrap_difference_percentile_95": [
+        3.044973333333335,
+        10.782913333333337
+      ],
+      "normal_standardized_difference": 3.080984686661943
+    },
+    "conditional_assuming_author_entries_are_complete_first_alarms": {
+      "point_difference_ours_minus_author": 4.459006288302334,
+      "relative_difference": 0.08885894884251955,
+      "independent_mean_se": 0.9030570571162627,
+      "bootstrap_difference_percentile_95": [
+        2.664801280631984,
+        6.206056092428282
+      ],
+      "normal_standardized_difference": 4.9376794668338055
+    }
+  },
+  "early_alarm_fractions": {
+    "author_assuming_first_alarm_latencies": {
+      "count": 2,
+      "n": 500,
+      "fraction": 0.004,
+      "wilson_95": [
+        0.0010976305226827934,
+        0.014465715215177033
+      ]
+    },
+    "ours_first_alarm_flags": {
+      "count": 17,
+      "n": 30000,
+      "fraction": 0.0005666666666666667,
+      "wilson_95": [
+        0.0003538445082180907,
+        0.0009073759549226143
+      ]
+    }
+  },
+  "conditional_gap_reduction_from_signed_source_reinterpretation": 2.146722891566263,
+  "limits": "Author event flags, censoring handling and thresholds are unavailable. Conditional source re-summary assumes complete first-alarm T-cp entries. Empirical bootstrap assumes independent runs and does not capture ARL calibration error, missing events, model uncertainty or unseen tail events. No p-value or causal diagnosis is asserted.",
+  "author_dataset_checksums_passed": true,
+  "our_delay_recomputed": {
+    "trials": 30000,
+    "change_at": 1000,
+    "horizon": 5000,
+    "false_alarms": 17,
+    "false_alarm_probability": 0.0005666666666666667,
+    "false_alarm_probability_se": 0.00013739790822710942,
+    "survivors": 29983,
+    "post_change_censored": 0,
+    "conditional_delay": 54.639729179868596,
+    "conditional_delay_se": 0.12890040664917599,
+    "restricted_conditional_delay": 54.639729179868596,
+    "restricted_conditional_delay_se": 0.12890040664917599
+  },
+  "source_unchanged": true
+}

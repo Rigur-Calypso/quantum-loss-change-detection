@@ -1,0 +1,81 @@
+Code cell 1
+Study: N=100, Na=0.1, transmission 0.9 -> 0.85
+Teaching target: average no-change alarm time = 1,000 pulses
+
+Code cell 2
+coherent: mean 9.4916 -> 9.2242; variance 0.2500 -> 0.2500; KL=0.143029 nats
+squeezed: mean 9.4868 -> 9.2195; variance 0.1458 -> 0.1515; KL=0.245469 nats
+
+Code cell 4
+coherent: threshold=4.38234, finer-grid ARL=1000.22
+squeezed: threshold=4.68477, finer-grid ARL=1000.16
+
+Code cell 5
+coherent {'stop': 262, 'estimated_change_at': 203, 'statistic': 4.6956702986791115} early false alarm: False
+squeezed {'stop': 207, 'estimated_change_at': 194, 'statistic': 4.753688663899933} early false alarm: False
+
+Code cell 6
+coherent {
+  "threshold": 4.382344951756148,
+  "arl": {
+    "trials": 12000,
+    "horizon": 100000,
+    "censored": 0,
+    "arl": 979.9414166666667,
+    "arl_se": 8.749396220845863,
+    "restricted_mean_min_T_H": 979.9414166666667,
+    "restricted_mean_se": 8.749396220845863
+  },
+  "delay": {
+    "trials": 12000,
+    "change_at": 201,
+    "horizon": 5000,
+    "false_alarms": 2051,
+    "false_alarm_probability": 0.17091666666666666,
+    "false_alarm_probability_se": 0.0034363759946856587,
+    "survivors": 9949,
+    "post_change_censored": 0,
+    "conditional_delay": 24.27902301738868,
+    "conditional_delay_se": 0.16226364290249953,
+    "restricted_conditional_delay": 24.27902301738868,
+    "restricted_conditional_delay_se": 0.16226364290249953
+  }
+}
+squeezed {
+  "threshold": 4.684774859861131,
+  "arl": {
+    "trials": 12000,
+    "horizon": 100000,
+    "censored": 0,
+    "arl": 1010.7455833333333,
+    "arl_se": 9.062184120333324,
+    "restricted_mean_min_T_H": 1010.7455833333333,
+    "restricted_mean_se": 9.062184120333324
+  },
+  "delay": {
+    "trials": 12000,
+    "change_at": 201,
+    "horizon": 5000,
+    "false_alarms": 2117,
+    "false_alarm_probability": 0.17641666666666667,
+    "false_alarm_probability_se": 0.00347962912761414,
+    "survivors": 9883,
+    "post_change_censored": 0,
+    "conditional_delay": 15.933522209855306,
+    "conditional_delay_se": 0.10580841162471646,
+    "restricted_conditional_delay": 15.933522209855306,
+    "restricted_conditional_delay_se": 0.10580841162471646
+  }
+}
+
+Code cell 7
+{
+  "trials": 1000,
+  "horizon": 20,
+  "censored": 988,
+  "arl": null,
+  "arl_se": null,
+  "restricted_mean_min_T_H": 19.95,
+  "restricted_mean_se": 0.01832582428803233
+}
+Saved numerical summary and all first-alarm arrays to walkthrough_run_v2

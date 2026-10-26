@@ -1,0 +1,31 @@
+{
+  "tests_passed": 421,
+  "core_checks_passed": 1869,
+  "extension_checks_passed": 984,
+  "report_hashes_verified": 701,
+  "raw_array_files_verified": 739,
+  "date": "2026-10-26",
+  "original_project_files_blocked_during_validation": true,
+  "existing_dependency_environment_reused": true,
+  "full_historical_ensembles_regenerated": false,
+  "paper_reproduction_complete": false,
+  "evidence_assets": {
+    "core": {
+      "name": "lossqcd-core-v0.1.0.tar.gz",
+      "bytes": 597510455,
+      "sha256": "b9af983856bcd4969e3ce157817d39879b12d8b55d964f51bd83117f7878111b",
+      "url": "https://github.com/Rigur-Calypso/quantum-loss-change-detection/releases/download/v0.1.0/lossqcd-core-v0.1.0.tar.gz"
+    },
+    "extensions": {
+      "name": "lossqcd-extensions-v0.1.0.tar.gz",
+      "bytes": 1301191837,
+      "sha256": "35670c70c255b0a2ce363601863cef5d58e5f223f283cb443a75a1ce3f3a3801",
+      "url": "https://github.com/Rigur-Calypso/quantum-loss-change-detection/releases/download/v0.1.0/lossqcd-extensions-v0.1.0.tar.gz"
+    }
+  },
+  "log_sha256": {
+    "release/validation_tests.txt": "eea939865e3112da1c9be701ec29de431bd5a11f15d4af3355c8e19ae9fe4088",
+    "release/validation_core.txt": "34dacac646afea75ea88f3fc212c8e34a244059b642abcb46947bfc9854caaac",
+    "release/extension_audits/summary.json": "1e9c222de42e068a812d725e1be821eb277c6ac87ffffcedf0c9d0665a850f6f"
+  }
+}

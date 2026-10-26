@@ -1,0 +1,416 @@
+{
+  "Na": 0.0,
+  "target_arl": 500.0,
+  "seed": 16288181045755222347,
+  "horizon": 100000,
+  "stream_seeds": [
+    9205353355522968365,
+    16672246512248476473,
+    10623274707039984924,
+    15769304406241431586,
+    16349939669778290823,
+    979618649829796251,
+    10280599144032495537,
+    11146030616451276460
+  ],
+  "models": {
+    "coherent": {
+      "calibration": {
+        "threshold": 3.71826171875,
+        "target_arl": 500.0,
+        "threshold_bracket": [
+          3.7158203125,
+          3.720703125
+        ],
+        "history": [
+          {
+            "threshold": 0.0,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 2.5134333333333334,
+            "arl_se": 0.011279992292819,
+            "restricted_mean_min_T_H": 2.5134333333333334,
+            "restricted_mean_se": 0.011279992292819
+          },
+          {
+            "threshold": 5.0,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 1870.4758333333334,
+            "arl_se": 10.634056265239877,
+            "restricted_mean_min_T_H": 1870.4758333333334,
+            "restricted_mean_se": 10.634056265239877
+          },
+          {
+            "threshold": 2.5,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 129.76926666666665,
+            "arl_se": 0.7121435040425311,
+            "restricted_mean_min_T_H": 129.76926666666665,
+            "restricted_mean_se": 0.7121435040425311
+          },
+          {
+            "threshold": 3.75,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 519.2744666666666,
+            "arl_se": 2.9042869012918007,
+            "restricted_mean_min_T_H": 519.2744666666666,
+            "restricted_mean_se": 2.9042869012918007
+          },
+          {
+            "threshold": 3.125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 262.5879,
+            "arl_se": 1.4575240503060192,
+            "restricted_mean_min_T_H": 262.5879,
+            "restricted_mean_se": 1.4575240503060192
+          },
+          {
+            "threshold": 3.4375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 367.58666666666664,
+            "arl_se": 2.0734896322234477,
+            "restricted_mean_min_T_H": 367.58666666666664,
+            "restricted_mean_se": 2.0734896322234477
+          },
+          {
+            "threshold": 3.59375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 438.7205666666667,
+            "arl_se": 2.466230266635523,
+            "restricted_mean_min_T_H": 438.7205666666667,
+            "restricted_mean_se": 2.466230266635523
+          },
+          {
+            "threshold": 3.671875,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 476.3139,
+            "arl_se": 2.6792247050954274,
+            "restricted_mean_min_T_H": 476.3139,
+            "restricted_mean_se": 2.6792247050954274
+          },
+          {
+            "threshold": 3.7109375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 495.37236666666666,
+            "arl_se": 2.7713141288629743,
+            "restricted_mean_min_T_H": 495.37236666666666,
+            "restricted_mean_se": 2.7713141288629743
+          },
+          {
+            "threshold": 3.73046875,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 505.3661333333333,
+            "arl_se": 2.8680674652534908,
+            "restricted_mean_min_T_H": 505.3661333333333,
+            "restricted_mean_se": 2.8680674652534908
+          },
+          {
+            "threshold": 3.720703125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 504.1214,
+            "arl_se": 2.825088131083436,
+            "restricted_mean_min_T_H": 504.1214,
+            "restricted_mean_se": 2.825088131083436
+          },
+          {
+            "threshold": 3.7158203125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 495.8059333333333,
+            "arl_se": 2.7961290246556425,
+            "restricted_mean_min_T_H": 495.8059333333333,
+            "restricted_mean_se": 2.7961290246556425
+          }
+        ],
+        "method": "noisy Monte Carlo bisection; independent stream per evaluation",
+        "calibration_trials_per_evaluation": 30000,
+        "calibration_seed": 9205353355522968365
+      },
+      "validation": {
+        "trials": 50000,
+        "horizon": 100000,
+        "censored": 0,
+        "arl": 499.1461,
+        "arl_se": 2.175302534986381,
+        "restricted_mean_min_T_H": 499.1461,
+        "restricted_mean_se": 2.175302534986381
+      },
+      "delay": {
+        "1": {
+          "trials": 30000,
+          "change_at": 1,
+          "horizon": 100000,
+          "false_alarms": 0,
+          "false_alarm_probability": 0.0,
+          "false_alarm_probability_se": 0.0,
+          "survivors": 30000,
+          "post_change_censored": 0,
+          "conditional_delay": 22.333066666666667,
+          "conditional_delay_se": 0.07973200050184638,
+          "restricted_conditional_delay": 22.333066666666667,
+          "restricted_conditional_delay_se": 0.07973200050184638
+        },
+        "100": {
+          "trials": 30000,
+          "change_at": 100,
+          "horizon": 100000,
+          "false_alarms": 4937,
+          "false_alarm_probability": 0.16456666666666667,
+          "false_alarm_probability_se": 0.002140751261347979,
+          "survivors": 25063,
+          "post_change_censored": 0,
+          "conditional_delay": 19.98519730279695,
+          "conditional_delay_se": 0.08970684882973552,
+          "restricted_conditional_delay": 19.98519730279695,
+          "restricted_conditional_delay_se": 0.08970684882973552
+        }
+      },
+      "pre": {
+        "mean": 9.486832980505138,
+        "variance": 0.25
+      },
+      "post": {
+        "mean": 9.219544457292887,
+        "variance": 0.25
+      },
+      "kl": 0.14288630928197213
+    },
+    "squeezed": {
+      "calibration": {
+        "threshold": 3.71826171875,
+        "target_arl": 500.0,
+        "threshold_bracket": [
+          3.7158203125,
+          3.720703125
+        ],
+        "history": [
+          {
+            "threshold": 0.0,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 2.5134333333333334,
+            "arl_se": 0.011279992292819,
+            "restricted_mean_min_T_H": 2.5134333333333334,
+            "restricted_mean_se": 0.011279992292819
+          },
+          {
+            "threshold": 5.0,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 1870.4758333333334,
+            "arl_se": 10.634056265239877,
+            "restricted_mean_min_T_H": 1870.4758333333334,
+            "restricted_mean_se": 10.634056265239877
+          },
+          {
+            "threshold": 2.5,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 129.76926666666665,
+            "arl_se": 0.7121435040425311,
+            "restricted_mean_min_T_H": 129.76926666666665,
+            "restricted_mean_se": 0.7121435040425311
+          },
+          {
+            "threshold": 3.75,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 519.2744666666666,
+            "arl_se": 2.9042869012918007,
+            "restricted_mean_min_T_H": 519.2744666666666,
+            "restricted_mean_se": 2.9042869012918007
+          },
+          {
+            "threshold": 3.125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 262.5879,
+            "arl_se": 1.4575240503060192,
+            "restricted_mean_min_T_H": 262.5879,
+            "restricted_mean_se": 1.4575240503060192
+          },
+          {
+            "threshold": 3.4375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 367.58666666666664,
+            "arl_se": 2.0734896322234477,
+            "restricted_mean_min_T_H": 367.58666666666664,
+            "restricted_mean_se": 2.0734896322234477
+          },
+          {
+            "threshold": 3.59375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 438.7205666666667,
+            "arl_se": 2.466230266635523,
+            "restricted_mean_min_T_H": 438.7205666666667,
+            "restricted_mean_se": 2.466230266635523
+          },
+          {
+            "threshold": 3.671875,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 476.3139,
+            "arl_se": 2.6792247050954274,
+            "restricted_mean_min_T_H": 476.3139,
+            "restricted_mean_se": 2.6792247050954274
+          },
+          {
+            "threshold": 3.7109375,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 495.37236666666666,
+            "arl_se": 2.7713141288629743,
+            "restricted_mean_min_T_H": 495.37236666666666,
+            "restricted_mean_se": 2.7713141288629743
+          },
+          {
+            "threshold": 3.73046875,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 505.3661333333333,
+            "arl_se": 2.8680674652534908,
+            "restricted_mean_min_T_H": 505.3661333333333,
+            "restricted_mean_se": 2.8680674652534908
+          },
+          {
+            "threshold": 3.720703125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 504.1214,
+            "arl_se": 2.825088131083436,
+            "restricted_mean_min_T_H": 504.1214,
+            "restricted_mean_se": 2.825088131083436
+          },
+          {
+            "threshold": 3.7158203125,
+            "trials": 30000,
+            "horizon": 100000,
+            "censored": 0,
+            "arl": 495.8059333333333,
+            "arl_se": 2.7961290246556425,
+            "restricted_mean_min_T_H": 495.8059333333333,
+            "restricted_mean_se": 2.7961290246556425
+          }
+        ],
+        "method": "noisy Monte Carlo bisection; independent stream per evaluation",
+        "calibration_trials_per_evaluation": 30000,
+        "calibration_seed": 9205353355522968365,
+        "reused_from": "coherent"
+      },
+      "validation": {
+        "trials": 50000,
+        "horizon": 100000,
+        "censored": 0,
+        "arl": 498.26172,
+        "arl_se": 2.1576315453595276,
+        "restricted_mean_min_T_H": 498.26172,
+        "restricted_mean_se": 2.1576315453595276
+      },
+      "delay": {
+        "1": {
+          "trials": 30000,
+          "change_at": 1,
+          "horizon": 100000,
+          "false_alarms": 0,
+          "false_alarm_probability": 0.0,
+          "false_alarm_probability_se": 0.0,
+          "survivors": 30000,
+          "post_change_censored": 0,
+          "conditional_delay": 22.445,
+          "conditional_delay_se": 0.07946432244414434,
+          "restricted_conditional_delay": 22.445,
+          "restricted_conditional_delay_se": 0.07946432244414434
+        },
+        "100": {
+          "trials": 30000,
+          "change_at": 100,
+          "horizon": 100000,
+          "false_alarms": 4850,
+          "false_alarm_probability": 0.16166666666666665,
+          "false_alarm_probability_se": 0.002125484694178056,
+          "survivors": 25150,
+          "post_change_censored": 0,
+          "conditional_delay": 19.96226640159046,
+          "conditional_delay_se": 0.08961241507133536,
+          "restricted_conditional_delay": 19.96226640159046,
+          "restricted_conditional_delay_se": 0.08961241507133536
+        }
+      },
+      "pre": {
+        "mean": 9.486832980505138,
+        "variance": 0.25
+      },
+      "post": {
+        "mean": 9.219544457292887,
+        "variance": 0.25
+      },
+      "kl": 0.14288630928197213
+    }
+  },
+  "arl_ratio": {
+    "ratio": 1.0017749306529107,
+    "se": 0.00615453793691667,
+    "approx_95_interval": [
+      0.989712036296554,
+      1.0138378250092674
+    ]
+  },
+  "arl_match_tolerance": 0.05,
+  "arl_matched": true,
+  "delay_ratios": {
+    "1": {
+      "ratio": 0.9950129947278533,
+      "se": 0.0050028764700971945,
+      "approx_95_interval": [
+        0.9852073568464628,
+        1.0048186326092439
+      ],
+      "delay_reduction_percent": -0.5012000143285178
+    },
+    "100": {
+      "ratio": 1.0011487123127796,
+      "se": 0.006355523660258725,
+      "approx_95_interval": [
+        0.9886918859386725,
+        1.0136055386868867
+      ],
+      "delay_reduction_percent": 0.11473942868346354
+    }
+  },
+  "kl_ratio": 1.0
+}
