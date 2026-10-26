@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "unit_tests": 419,
+  "core_evidence_checks": 1869,
+  "additional_study_checks": 984,
+  "raw_array_files": 739,
+  "metadata_record_files": 572,
+  "public_root_folders": [
+    "src",
+    "tests",
+    "data",
+    "notebooks",
+    "results"
+  ],
+  "source_and_detection_models_changed": false,
+  "scientific_arrays_changed": false,
+  "retired_unused_local_export_tests": 6,
+  "new_storage_and_restore_tests": 4,
+  "full_historical_random_regeneration": false,
+  "published_numerical_reproduction_complete": false,
+  "scope": "Compact layout validation with original source fallback blocked; existing dependency environment reused.",
+  "additional_audits": [
+    {
+      "study": "results_adaptive_validation",
+      "passed": true,
+      "count": 27
+    },
+    {
+      "study": "results_null_channel_refined",
+      "passed": true,
+      "count": 226
+    },
+    {
+      "study": "results_entangled_null_diagnostics",
+      "passed": true,
+      "count": 191
+    },
+    {
+      "study": "results_robust_thresholds",
+      "passed": true,
+      "count": 540
+    }
+  ],
+  "clean_checkout_validation": "pending"
+}

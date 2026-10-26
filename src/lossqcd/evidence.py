@@ -37,7 +37,8 @@ def restore(root, archive, asset):
     if sha256(archive) != asset['sha256']:
         raise ValueError('Release archive checksum mismatch')
     expected = asset['files']
-    targets = {name: safe_target(root, name) for name in expected}
+    prefix = asset.get('destination_prefix', '')
+    targets = {name: safe_target(root, str(PurePosixPath(prefix) / name)) for name in expected}
     for name, target in targets.items():
         if target.exists() and (not target.is_file() or sha256(target) != expected[name]['sha256']):
             raise FileExistsError(f'Existing evidence differs: {name}')
@@ -74,13 +75,17 @@ def restore(root, archive, asset):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--manifest', type=Path, default=Path('release/evidence.json'))
+    parser.add_argument('--manifest', type=Path, default=Path('data/evidence.json'))
     parser.add_argument('--root', type=Path, default=Path.cwd())
     parser.add_argument('--scope', choices=('core', 'extensions', 'all'), default='core')
     parser.add_argument('--archive-dir', type=Path,
                         help='Use already downloaded assets; no network access.')
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text())
+    if 'metadata' in manifest:
+        metadata = manifest['metadata']
+        installed = restore(args.root, args.manifest.parent / metadata['name'], metadata)
+        print(f'Metadata: verified {len(metadata["files"])} files; restored {installed}.')
     for scope, asset in manifest['assets'].items():
         if args.scope not in (scope, 'all'):
             continue

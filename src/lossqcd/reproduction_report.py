@@ -44,18 +44,28 @@ def digest(path):
     return h.hexdigest()
 
 
+def study_path(root, name):
+    """Resolve archived evidence in the compact layout or an earlier checkout."""
+    root = Path(root)
+    compact = root / 'data/studies' / name
+    return compact if compact.exists() else root / name
+
+
 def inventory(root):
     """Relative paths are portable; only the declared core studies count."""
     root = Path(root)
     paths = []
-    for folder in (*STUDIES, 'src/lossqcd', 'tests', 'data/zenodo_17460928',
-                   'notebooks', 'walkthrough_run_v2', 'scripts', 'source_audit',
-                   'data/arxiv_source_audit', 'results_dv_uncertainty_final'):
-        paths.extend(p for p in (root / folder).rglob('*')
+    folders = [study_path(root, n) for n in (*STUDIES, 'walkthrough_run_v2',
+               'source_audit', 'results_dv_uncertainty_final')]
+    folders += [root / n for n in ('src/lossqcd', 'tests', 'data/zenodo_17460928', 'notebooks')]
+    for folder in folders:
+        paths.extend(p for p in folder.rglob('*')
                      if p.is_file() and '__pycache__' not in p.parts)
     paths.extend(root / name for name in
-                 ('pyproject.toml', 'requirements-lock.txt', 'PAPER_IMPLEMENTATION.md',
-                  'README.md', 'RESULTS.md', 'REPRODUCING.md'))
+                 ('pyproject.toml', 'requirements-lock.txt', 'LICENSE', 'CITATION.cff',
+                  'README.md', 'data/evidence.json', 'data/metadata.tar.gz',
+                  'results/REPORT.md', 'results/summary.csv') if (root / name).is_file())
+    paths.extend((root / 'results').glob('*.png'))
     return {str(p.relative_to(root)): digest(p) for p in sorted(set(paths))}
 
 
@@ -78,7 +88,7 @@ def verify_manifest(root, report):
 
 def run_auditor(root, folder, module, destination):
     """Only the temporary audit.json can be written by the existing auditor."""
-    source = root / folder
+    source = study_path(root, folder)
     with tempfile.TemporaryDirectory(prefix='lossqcd-audit-') as temp:
         stage = Path(temp)
         for path in source.iterdir():
@@ -101,7 +111,7 @@ def run_auditor(root, folder, module, destination):
 
 
 def check_figure2(root):
-    path = root / 'results_entangled/figure2_all_curves.csv'
+    path = study_path(root, 'results_entangled') / 'figure2_all_curves.csv'
     data = np.genfromtxt(path, delimiter=',', names=True)
     checks = []
     for name in data.dtype.names[1:]:
@@ -139,7 +149,7 @@ def coverage():
 
 
 def evidence(root):
-    def read(name): return json.loads((root / name / 'report.json').read_text())
+    def read(name): return json.loads((study_path(root, name) / 'report.json').read_text())
     author, paper, verified, independent = [read(name) for name in STUDIES[1:5]]
     scaling = read('results_delay_scaling')
     slopes = {}
@@ -168,7 +178,13 @@ def evidence(root):
 
 def write_report(root, output, report):
     rows = coverage(); e = report['evidence']
-    def link(path): return quote(os.path.relpath(root / path, output), safe='/')
+    def link(path):
+        if path == 'PAPER_IMPLEMENTATION.md':
+            target = root / 'results/REPORT.md'
+        else:
+            parts = Path(path).parts
+            target = study_path(root, parts[0]).joinpath(*parts[1:])
+        return quote(os.path.relpath(target, output), safe='/')
     lines = ['# Paper reproduction report', '',
              '**Main paper models implemented; complete numerical reproduction remains unresolved.**', '',
              '[Paper](https://arxiv.org/html/2503.12276v2) · [Coverage details](' + link('PAPER_IMPLEMENTATION.md') + ')', '',
@@ -206,7 +222,7 @@ def write_report(root, output, report):
               'python -m lossqcd.reproduction_report --check paper_reproduction_repeat',
               'python -m pytest -q', '```', '',
               'Each build needs a fresh output directory. The build runs six original audit modules in temporary linked directories, adds the Figure 2 table check, and saves new audit records here. Original audit.json files remain unchanged. Manifest checking detects changes to the recorded source/code/data and generated report files; the manifest itself is not an external signature.', '',
-              'For exact random regeneration use the separate study commands in their linked results documents. Cached study reports contain absolute source paths; moving the project may require regenerating those studies with updated source paths. No new paper PDF download is required.', '',
+              'For exact random regeneration use the separate study commands in their linked results documents. Archived study references use repository-relative paths beneath data/studies. No new paper PDF download is required.', '',
               '## Next source evidence needed', '',
               '1. Figure 4: original fixed-seed covariance and energy-conversion calculation.',
               '2. Figure 5: original probe amplitude/energy and numerical plotting array.',
@@ -248,7 +264,8 @@ def write_report(root, output, report):
 
 def build(root, output):
     root, output = Path(root).resolve(), Path(output).resolve()
-    if any(output.is_relative_to(root / study) for study in STUDIES):
+    if any(output.is_relative_to(base / study) for study in STUDIES
+           for base in (root, root / 'data/studies')):
         raise ValueError('Report output must be outside the existing study directories.')
     if not sys.flags.optimize == 0:
         raise RuntimeError('Run without Python -O: some historical auditors use assertions.')
@@ -279,7 +296,7 @@ def build(root, output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path.cwd())
-    parser.add_argument('--output', type=Path, default=Path('paper_reproduction'))
+    parser.add_argument('--output', type=Path, default=Path('results/review'))
     parser.add_argument('--check', type=Path)
     args = parser.parse_args()
     if args.check:

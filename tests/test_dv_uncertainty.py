@@ -2,7 +2,7 @@
 import itertools
 import numpy as np
 import pytest
-from scripts.compare_dv_uncertainty import bootstrap_mean
+from lossqcd.dv_uncertainty import bootstrap_mean
 
 
 @pytest.mark.parametrize('data',[[-2,1,1,4],[-844,-129,17,34,50]])

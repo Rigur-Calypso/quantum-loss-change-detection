@@ -7,5 +7,7 @@ __pycache__/
 *.npy
 *.tar
 *.tar.gz
-review_repeat*/
-walkthrough_repeat*/
+!data/metadata.tar.gz
+data/studies/
+results/review*/
+results/walkthrough*/

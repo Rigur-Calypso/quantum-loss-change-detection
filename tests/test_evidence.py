@@ -69,3 +69,26 @@ def test_symlink_destination_cannot_leave_project(tmp_path):
     (root / 'runs').symlink_to(outside, target_is_directory=True)
     with pytest.raises(ValueError):
         safe_target(root, 'runs/a.npz')
+
+
+def test_original_release_paths_restore_beneath_compact_data_folder(tmp_path):
+    archive, metadata = asset(tmp_path, [('results_trial/runs.npz', b'array')])
+    metadata['destination_prefix'] = 'data/studies'
+    root = tmp_path / 'project'
+    assert restore(root, archive, metadata) == 1
+    assert (root / 'data/studies/results_trial/runs.npz').read_bytes() == b'array'
+    assert not (root / 'results_trial').exists()
+
+
+def test_cli_restores_tracked_metadata_before_any_raw_download(tmp_path, monkeypatch):
+    import json
+    import sys
+    from lossqcd.evidence import main
+    archive, metadata = asset(tmp_path, [('data/studies/trial/report.json', b'{"passed":true}')])
+    metadata['name'] = archive.name
+    manifest = tmp_path / 'manifest.json'
+    manifest.write_text(json.dumps({'metadata': metadata, 'assets': {}}))
+    root = tmp_path / 'project'
+    monkeypatch.setattr(sys, 'argv', ['evidence', '--root', str(root), '--manifest', str(manifest)])
+    main()
+    assert (root / 'data/studies/trial/report.json').read_bytes() == b'{"passed":true}'

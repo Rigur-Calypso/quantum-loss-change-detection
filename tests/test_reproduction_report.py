@@ -64,3 +64,18 @@ def test_report_build_cannot_write_inside_source_study(tmp_path):
     with pytest.raises(ValueError,match='outside'):
         build(tmp_path,tmp_path/'results_entangled/new_report')
     assert not (tmp_path/'results_entangled').exists()
+
+
+def test_report_resolves_compact_study_folder_and_retains_legacy_support(tmp_path):
+    from lossqcd.reproduction_report import study_path
+    legacy = tmp_path / 'results_entangled'; legacy.mkdir()
+    assert study_path(tmp_path, 'results_entangled') == legacy
+    compact = tmp_path / 'data/studies/results_entangled'; compact.mkdir(parents=True)
+    assert study_path(tmp_path, 'results_entangled') == compact
+
+
+def test_report_cannot_write_inside_compact_source_study(tmp_path):
+    output = tmp_path / 'data/studies/results_entangled/new_report'
+    with pytest.raises(ValueError, match='outside'):
+        build(tmp_path, output)
+    assert not output.exists()

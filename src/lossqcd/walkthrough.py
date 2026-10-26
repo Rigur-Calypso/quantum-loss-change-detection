@@ -76,7 +76,7 @@ def run(root, output):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--root', type=Path, default=Path.cwd())
-    p.add_argument('--output', type=Path, default=Path('walkthrough_run'))
+    p.add_argument('--output', type=Path, default=Path('results/walkthrough'))
     args = p.parse_args()
     r = run(args.root, args.output)
     print(f"Executed {r['executed_code_cells']} code cells; source notebook unchanged.")

@@ -1,0 +1,52 @@
+metric,value
+author_arl_confirmed,61
+author_arl_settings,61
+new_arl_confirmed,17
+new_arl_settings,17
+figure3_unmodulated_mean_absolute_ratio_difference,0.07489680083419842
+figure3_bpsk_mean_absolute_ratio_difference,0.06395361552947364
+figure7_by_family.Coherent.mean_relative_difference,0.1364917823145766
+figure7_by_family.Coherent.max_absolute_relative_difference,0.18275345426441802
+figure7_by_family.Coherent.points_within_5_percent,0
+figure7_by_family.Coherent.points,9
+figure7_by_family.Coherent.confirmed_arl_settings,9
+figure7_by_family.Squeezed n=1.mean_relative_difference,0.2588826020952244
+figure7_by_family.Squeezed n=1.max_absolute_relative_difference,0.32509130473230785
+figure7_by_family.Squeezed n=1.points_within_5_percent,0
+figure7_by_family.Squeezed n=1.points,9
+figure7_by_family.Squeezed n=1.confirmed_arl_settings,9
+figure7_by_family.Entangled n=2.mean_relative_difference,0.3439224637692187
+figure7_by_family.Entangled n=2.max_absolute_relative_difference,0.4164025382633474
+figure7_by_family.Entangled n=2.points_within_5_percent,0
+figure7_by_family.Entangled n=2.points,9
+figure7_by_family.Entangled n=2.confirmed_arl_settings,9
+figure7_by_family.Entangled n=4.mean_relative_difference,0.30595693002857666
+figure7_by_family.Entangled n=4.max_absolute_relative_difference,0.40274638847447286
+figure7_by_family.Entangled n=4.points_within_5_percent,0
+figure7_by_family.Entangled n=4.points,9
+figure7_by_family.Entangled n=4.confirmed_arl_settings,9
+figure7_by_family.Entangled n=8.mean_relative_difference,0.28625652981184607
+figure7_by_family.Entangled n=8.max_absolute_relative_difference,0.34344684721460217
+figure7_by_family.Entangled n=8.points_within_5_percent,0
+figure7_by_family.Entangled n=8.points,9
+figure7_by_family.Entangled n=8.confirmed_arl_settings,9
+dv_entropy,0.20634047917980158
+dv_delay.trials,30000
+dv_delay.change_at,1000
+dv_delay.horizon,5000
+dv_delay.false_alarms,17
+dv_delay.false_alarm_probability,0.0005666666666666667
+dv_delay.false_alarm_probability_se,0.00013739790822710942
+dv_delay.survivors,29983
+dv_delay.post_change_censored,0
+dv_delay.conditional_delay,54.639729179868596
+dv_delay.conditional_delay_se,0.12890040664917599
+dv_delay.restricted_conditional_delay,54.639729179868596
+dv_delay.restricted_conditional_delay_se,0.12890040664917599
+figure12_max_sparse_pixel_difference,0.016673750586221336
+counterfactual_kennedy_fit_photons,10.05703562187957
+independent_draws,5000000
+delay_scaling_confirmed,14
+delay_scaling_cases,14
+delay_scaling_high_arl_normalized_slopes.coherent,1.000137694110017
+delay_scaling_high_arl_normalized_slopes.squeezed,1.000084113322008
