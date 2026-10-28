@@ -3,7 +3,7 @@
   "unit_tests": 428,
   "core_evidence_checks": 1869,
   "additional_study_checks": 984,
-  "core_file_hashes_verified": 715,
+  "core_file_hashes_verified": 714,
   "raw_array_files_verified": 739,
   "metadata_record_files_verified": 572,
   "additional_audits": [
@@ -38,10 +38,9 @@
   "notebook_code_numerically_unchanged": true,
   "notebook_outputs_unchanged": true,
   "lesson_regenerated_seeded_arrays_identical": true,
-  "latex_pages": 10,
-  "latex_repository_compile": "pdfLaTeX; passed; references resolved; no overfull boxes",
-  "latex_overleaf_package_compile": "passed from standalone extracted ZIP; nine figures included",
-  "local_documentation_links_checked": 34,
+  "local_documentation_links_checked": 33,
   "published_numerical_reproduction_complete": false,
-  "scope": "Renamed active modules and documentation, preserved released evidence, recalculated saved core/extension results with original-project fallback blocked, and separately regenerated the seven-cell lesson. All random trajectories were not regenerated."
+  "scope": "Active repository contains the compiled report PDF only. Source and upload bundle are retained outside the Git checkout. Scientific code, raw ensembles and numerical findings are unchanged.",
+  "report_pages": 10,
+  "report_pdf_checked": true
 }

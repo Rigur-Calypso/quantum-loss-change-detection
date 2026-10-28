@@ -77,8 +77,8 @@ def inventory(root):
         if (root / name).is_file()
     )
     paths.extend((root / "results").glob("*.png"))
-    paths.extend((root / "results/tex").glob("*.tex"))
-    paths.extend((root / "results/tex").glob("*.pdf"))
+    if (root / "results/report.pdf").is_file():
+        paths.append(root / "results/report.pdf")
     return {str(p.relative_to(root)): digest(p) for p in sorted(set(paths))}
 
 

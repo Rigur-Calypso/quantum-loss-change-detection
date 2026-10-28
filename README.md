@@ -15,7 +15,7 @@ change in channel loss. Runs on a classical computer.
 
 **428 tests · 1,869 core checks · 984 additional checks.**
 
-[Report: PDF](results/tex/report.pdf) · [TeX](results/tex/main.tex) ·
+[Report: PDF](results/report.pdf) ·
 [Full results and limitations](results/report.md) ·
 [Notebook](notebooks/lesson.ipynb) ·
 [Executed example](notebooks/example.ipynb)
@@ -33,9 +33,6 @@ python -m pip install -e '.[dev]'
 python -m pytest -q
 python -m lossqcd.lesson --output results/lesson_new
 ```
-
-For Overleaf, upload the TeX file and the nine PNGs in `results/`; select
-`main.tex` with pdfLaTeX. References are included in the TeX file.
 
 Tests and the lesson need no data download. Use fresh output folders.
 `requirements.txt` records the original Python 3.14.2 environment.

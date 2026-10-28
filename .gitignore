@@ -14,8 +14,3 @@ results/review*/
 results/walkthrough*/
 
 results/lesson*/
-results/tex/*.aux
-results/tex/*.log
-results/tex/*.out
-results/tex/*.toc
-results/tex/*.zip
