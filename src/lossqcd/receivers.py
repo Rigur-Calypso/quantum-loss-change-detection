@@ -211,6 +211,6 @@ class PhaseKennedy:
 
     def onoff_kl(self, pre):
         """Coarse-grain photon counts to a binary click before computing KL."""
-        from .paper_models import Bernoulli
+        from .probes import Bernoulli
 
         return Bernoulli(self.click_probability()).kl(Bernoulli(pre.click_probability()))

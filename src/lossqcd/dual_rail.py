@@ -8,7 +8,7 @@ the security of a QKD protocol. Readout is assumed available after BOTH bins.
 
 from dataclasses import dataclass
 import numpy as np
-from .paper_models import Bernoulli
+from .probes import Bernoulli
 from .cusum import validate_threshold
 from .simulation import Runs, summarize_arl, summarize_delay
 

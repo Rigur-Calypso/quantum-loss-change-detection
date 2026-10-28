@@ -6,10 +6,10 @@ import json
 from pathlib import Path
 import numpy as np
 from .dual_rail import DualRailRuns, simulate_heralds, summarize_dual_rail
-from .dual_rail_experiment import state_checks
-from .paper_models import Bernoulli
-from .iid_detection import estimate_iid_arl
-from .mismatch_renewal import read_cycles, summarize_mismatch_cycles, cycle_arrays
+from .rail_study import state_checks
+from .probes import Bernoulli
+from .iid_cusum import estimate_iid_arl
+from .mismatch import read_cycles, summarize_mismatch_cycles, cycle_arrays
 from .simulation import Runs
 
 

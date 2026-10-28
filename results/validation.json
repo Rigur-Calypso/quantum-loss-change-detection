@@ -1,21 +1,11 @@
 {
-  "passed": true,
-  "date": "2026-10-28",
-  "unit_tests": 425,
+  "date": "2026-10-29",
+  "unit_tests": 428,
   "core_evidence_checks": 1869,
   "additional_study_checks": 984,
-  "core_file_hashes_verified": 713,
+  "core_file_hashes_verified": 715,
   "raw_array_files_verified": 739,
   "metadata_record_files_verified": 572,
-  "format_and_unused_code_checks": "Ruff 0.17.3; passing",
-  "existing_python_files_compared": 97,
-  "numerical_control_flow_unchanged": true,
-  "documented_function_and_class_contracts_added": 183,
-  "notebook_outputs_unchanged": true,
-  "lesson_regenerated_seeded_arrays_identical": true,
-  "scientific_arrays_changed": false,
-  "published_numerical_reproduction_complete": false,
-  "scope": "Source review, local tests and saved-evidence recalculation with original source fallback blocked; existing dependency environment reused.",
   "additional_audits": [
     {
       "study": "results_adaptive_validation",
@@ -37,5 +27,21 @@
       "passed": true,
       "count": 540
     }
-  ]
+  ],
+  "passed": true,
+  "format_and_unused_code_checks": "Ruff 0.17.3; passing",
+  "module_names_shortened": true,
+  "source_modules_equal_after_name_and_doc_normalization": 58,
+  "source_modules_with_reviewed_path_or_inventory_changes": 3,
+  "archived_author_paths_remain_supported": true,
+  "scientific_arrays_changed": false,
+  "notebook_code_numerically_unchanged": true,
+  "notebook_outputs_unchanged": true,
+  "lesson_regenerated_seeded_arrays_identical": true,
+  "latex_pages": 10,
+  "latex_repository_compile": "pdfLaTeX; passed; references resolved; no overfull boxes",
+  "latex_overleaf_package_compile": "passed from standalone extracted ZIP; nine figures included",
+  "local_documentation_links_checked": 34,
+  "published_numerical_reproduction_complete": false,
+  "scope": "Renamed active modules and documentation, preserved released evidence, recalculated saved core/extension results with original-project fallback blocked, and separately regenerated the seven-cell lesson. All random trajectories were not regenerated."
 }

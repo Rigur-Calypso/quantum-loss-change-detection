@@ -53,10 +53,10 @@ quantum-enhanced quickest change detection of transmission loss*, v1,
 Zenodo, [DOI:10.5281/zenodo.17460928](https://doi.org/10.5281/zenodo.17460928).
 License: CC BY 4.0, as recorded in the preserved Zenodo API metadata.
 
-`data/zenodo_17460928/prl_fig3_data`, `prl_fig7_data`,
+`data/authors/prl_fig3_data`, `prl_fig7_data`,
 `prl_supplem_fig4b_data` and `plot_PRL_figs.m` retain their original bytes and
 published checksums. The plotting script is parsed/read as source material and
-is not executed by the Python implementation. `data/zenodo_17460928/README.md`
+is not executed by the Python implementation. `data/authors/README.md`
 and `manifest.json` provide full provenance. These files are not MIT relicensed.
 
 The release archives contain our simulation arrays. Historical summaries and

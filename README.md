@@ -13,11 +13,12 @@ change in channel loss. Runs on a classical computer.
 - **Unresolved:** Figure 3/7 delays and Figure 4/5 comparisons. This is a
   **partial numerical reproduction**, with no hardware experiment claimed.
 
-**425 tests · 1,869 core checks · 984 additional checks.**
+**428 tests · 1,869 core checks · 984 additional checks.**
 
-[Full results and limitations](results/REPORT.md) ·
-[Notebook](notebooks/01_paper_walkthrough.ipynb) ·
-[Executed example](notebooks/02_executed_walkthrough.ipynb)
+[Report: PDF](results/tex/report.pdf) · [TeX](results/tex/main.tex) ·
+[Full results and limitations](results/report.md) ·
+[Notebook](notebooks/lesson.ipynb) ·
+[Executed example](notebooks/example.ipynb)
 
 ![Figure 2: relative entropy for coherent, squeezed and entangled probes](results/figure2.png)
 
@@ -30,24 +31,27 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[dev]'
 python -m pytest -q
-python -m lossqcd.walkthrough --output results/walkthrough_new
+python -m lossqcd.lesson --output results/lesson_new
 ```
 
+For Overleaf, upload the TeX file and the nine PNGs in `results/`; select
+`main.tex` with pdfLaTeX. References are included in the TeX file.
+
 Tests and the lesson need no data download. Use fresh output folders.
-`requirements-lock.txt` records the original Python 3.14.2 environment.
+`requirements.txt` records the original Python 3.14.2 environment.
 
 ## Check saved simulations
 
 ```sh
 python -m lossqcd.evidence --scope core
-python -m lossqcd.reproduction_report --output results/review_new
-python -m lossqcd.reproduction_report --check results/review_new
+python -m lossqcd.report --output results/review_new
+python -m lossqcd.report --check results/review_new
 ```
 
 [Release archives](https://github.com/Rigur-Calypso/quantum-loss-change-detection/releases/tag/v0.1.0):
 core **570 MiB**; `--scope all` **1.8 GiB**. Files are checksum-verified and
 restored under `data/studies/`. These commands check saved evidence; they do
-not regenerate every random trajectory. See the [report](results/REPORT.md)
+not regenerate every random trajectory. See the [report](results/report.md)
 for regeneration commands and the [manifest](data/evidence.json) for hashes.
 
 By Bhagyesh Kamal. Independent of the paper's authors.

@@ -76,7 +76,7 @@ def run(root, output):
     ]
     metadata = json.loads((data / "zenodo_record.json").read_text())
     versions = json.loads((data / "zenodo_versions.json").read_text())
-    original = json.loads((root / "data/zenodo_17460928/manifest.json").read_text())
+    original = json.loads((root / "data/authors/manifest.json").read_text())
     current = {f["key"]: f["checksum"] for f in metadata["files"]}
     checks = []
     for f in original["files"]:
