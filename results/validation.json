@@ -1,24 +1,21 @@
 {
   "passed": true,
-  "unit_tests": 419,
+  "date": "2026-10-28",
+  "unit_tests": 425,
   "core_evidence_checks": 1869,
   "additional_study_checks": 984,
-  "raw_array_files": 739,
-  "metadata_record_files": 572,
-  "public_root_folders": [
-    "src",
-    "tests",
-    "data",
-    "notebooks",
-    "results"
-  ],
-  "source_and_detection_models_changed": false,
+  "core_file_hashes_verified": 713,
+  "raw_array_files_verified": 739,
+  "metadata_record_files_verified": 572,
+  "format_and_unused_code_checks": "Ruff 0.17.3; passing",
+  "existing_python_files_compared": 97,
+  "numerical_control_flow_unchanged": true,
+  "documented_function_and_class_contracts_added": 183,
+  "notebook_outputs_unchanged": true,
+  "lesson_regenerated_seeded_arrays_identical": true,
   "scientific_arrays_changed": false,
-  "retired_unused_local_export_tests": 6,
-  "new_storage_and_restore_tests": 4,
-  "full_historical_random_regeneration": false,
   "published_numerical_reproduction_complete": false,
-  "scope": "Compact layout validation with original source fallback blocked; existing dependency environment reused.",
+  "scope": "Source review, local tests and saved-evidence recalculation with original source fallback blocked; existing dependency environment reused.",
   "additional_audits": [
     {
       "study": "results_adaptive_validation",
@@ -40,30 +37,5 @@
       "passed": true,
       "count": 540
     }
-  ],
-  "clean_checkout_validation": {
-    "passed": true,
-    "tests": 419,
-    "metadata_files_restored": 572,
-    "raw_arrays_restored": 739,
-    "core_checks": 1869,
-    "source_revision": "1f934a3a082230503bbe1548c3b40fc85a69a2bb",
-    "original_source_fallback_blocked": true,
-    "allowed_original_inputs": "Existing Python dependencies and the two approved raw-data archives only."
-  },
-  "structure": {
-    "visible_root_folders_before": 44,
-    "visible_root_folders_after": 5,
-    "tracked_files_after": 127,
-    "scientific_implementation_modules_preserved": true
-  },
-  "github_actions": {
-    "conclusion": "success",
-    "python_versions": [
-      "3.11",
-      "3.14"
-    ],
-    "revision": "1f934a3a082230503bbe1548c3b40fc85a69a2bb",
-    "url": "https://github.com/Rigur-Calypso/quantum-loss-change-detection/actions/runs/40367270440"
-  }
+  ]
 }

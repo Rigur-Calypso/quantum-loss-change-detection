@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lossqcd"
 version = "0.1.0"
-description = "Reproducible Gaussian CUSUM experiments for arXiv:2503.12276v2"
+description = "Computational study of quantum-enhanced transmission-loss change detection"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.26,<3", "matplotlib>=3.8,<4"]
 
 [project.optional-dependencies]
 numerics = ["scipy>=1.12,<2"]
-dev = ["pytest>=8,<10", "scipy>=1.12,<2"]
+dev = ["pytest>=8,<10", "scipy>=1.12,<2", "ruff==0.17.3"]
 
 [project.scripts]
 lossqcd-experiments = "lossqcd.experiments:main"
@@ -22,3 +22,10 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F"]

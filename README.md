@@ -13,7 +13,7 @@ change in channel loss. Runs on a classical computer.
 - **Unresolved:** Figure 3/7 delays and Figure 4/5 comparisons. This is a
   **partial numerical reproduction**, with no hardware experiment claimed.
 
-**419 tests · 1,869 core checks · 984 additional checks.**
+**425 tests · 1,869 core checks · 984 additional checks.**
 
 [Full results and limitations](results/REPORT.md) ·
 [Notebook](notebooks/01_paper_walkthrough.ipynb) ·

@@ -1,6 +1,7 @@
 """Restore checksum-verified release arrays without overwriting local evidence."""
+
+from .audit_utils import sha256
 import argparse
-import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import shutil
@@ -9,21 +10,14 @@ import tempfile
 from urllib.request import urlopen
 
 
-def sha256(path):
-    result = hashlib.sha256()
-    with Path(path).open('rb') as handle:
-        for block in iter(lambda: handle.read(1024 * 1024), b''):
-            result.update(block)
-    return result.hexdigest()
-
-
 def safe_target(root, name):
+    """Resolve an evidence member beneath root and reject traversal or escaping symlinks."""
     part = PurePosixPath(name)
-    if part.is_absolute() or '..' in part.parts or '\\' in name or not part.parts:
-        raise ValueError(f'Unsafe evidence path: {name}')
+    if part.is_absolute() or ".." in part.parts or "\\" in name or not part.parts:
+        raise ValueError(f"Unsafe evidence path: {name}")
     target = root.joinpath(*part.parts)
     if not target.resolve().is_relative_to(root.resolve()):
-        raise ValueError(f'Evidence path leaves project: {name}')
+        raise ValueError(f"Evidence path leaves project: {name}")
     return target
 
 
@@ -34,40 +28,40 @@ def restore(root, archive, asset):
     alone. Archive links, duplicate paths and unlisted entries are rejected.
     """
     root, archive = Path(root).resolve(), Path(archive)
-    if sha256(archive) != asset['sha256']:
-        raise ValueError('Release archive checksum mismatch')
-    expected = asset['files']
-    prefix = asset.get('destination_prefix', '')
+    if sha256(archive) != asset["sha256"]:
+        raise ValueError("Release archive checksum mismatch")
+    expected = asset["files"]
+    prefix = asset.get("destination_prefix", "")
     targets = {name: safe_target(root, str(PurePosixPath(prefix) / name)) for name in expected}
     for name, target in targets.items():
-        if target.exists() and (not target.is_file() or sha256(target) != expected[name]['sha256']):
-            raise FileExistsError(f'Existing evidence differs: {name}')
-    with tempfile.TemporaryDirectory(prefix='lossqcd-restore-') as temp:
+        if target.exists() and (not target.is_file() or sha256(target) != expected[name]["sha256"]):
+            raise FileExistsError(f"Existing evidence differs: {name}")
+    with tempfile.TemporaryDirectory(prefix="lossqcd-restore-") as temp:
         stage = Path(temp)
         seen = set()
-        with tarfile.open(archive, 'r:*') as source:
+        with tarfile.open(archive, "r:*") as source:
             for member in source:
                 name = member.name
                 if name not in expected or name in seen or not member.isfile():
-                    raise ValueError(f'Unexpected archive entry: {name}')
-                if member.size != expected[name]['bytes']:
-                    raise ValueError(f'Evidence size mismatch: {name}')
+                    raise ValueError(f"Unexpected archive entry: {name}")
+                if member.size != expected[name]["bytes"]:
+                    raise ValueError(f"Evidence size mismatch: {name}")
                 seen.add(name)
                 destination = safe_target(stage, name)
                 destination.parent.mkdir(parents=True, exist_ok=True)
-                with source.extractfile(member) as incoming, destination.open('wb') as outgoing:
+                with source.extractfile(member) as incoming, destination.open("wb") as outgoing:
                     shutil.copyfileobj(incoming, outgoing)
-                if sha256(destination) != expected[name]['sha256']:
-                    raise ValueError(f'Evidence file checksum mismatch: {name}')
+                if sha256(destination) != expected[name]["sha256"]:
+                    raise ValueError(f"Evidence file checksum mismatch: {name}")
         if seen != set(expected):
-            raise ValueError('Release archive is missing declared files')
+            raise ValueError("Release archive is missing declared files")
         installed = 0
         for name, target in targets.items():
             if target.exists():
                 continue
             target.parent.mkdir(parents=True, exist_ok=True)
             # Exclusive creation protects evidence if another process creates it.
-            with (stage / name).open('rb') as incoming, target.open('xb') as outgoing:
+            with (stage / name).open("rb") as incoming, target.open("xb") as outgoing:
                 shutil.copyfileobj(incoming, outgoing)
             installed += 1
     return installed
@@ -75,30 +69,31 @@ def restore(root, archive, asset):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--manifest', type=Path, default=Path('data/evidence.json'))
-    parser.add_argument('--root', type=Path, default=Path.cwd())
-    parser.add_argument('--scope', choices=('core', 'extensions', 'all'), default='core')
-    parser.add_argument('--archive-dir', type=Path,
-                        help='Use already downloaded assets; no network access.')
+    parser.add_argument("--manifest", type=Path, default=Path("data/evidence.json"))
+    parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--scope", choices=("core", "extensions", "all"), default="core")
+    parser.add_argument(
+        "--archive-dir", type=Path, help="Use already downloaded assets; no network access."
+    )
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text())
-    if 'metadata' in manifest:
-        metadata = manifest['metadata']
-        installed = restore(args.root, args.manifest.parent / metadata['name'], metadata)
-        print(f'Metadata: verified {len(metadata["files"])} files; restored {installed}.')
-    for scope, asset in manifest['assets'].items():
-        if args.scope not in (scope, 'all'):
+    if "metadata" in manifest:
+        metadata = manifest["metadata"]
+        installed = restore(args.root, args.manifest.parent / metadata["name"], metadata)
+        print(f"Metadata: verified {len(metadata['files'])} files; restored {installed}.")
+    for scope, asset in manifest["assets"].items():
+        if args.scope not in (scope, "all"):
             continue
         if args.archive_dir:
-            installed = restore(args.root, args.archive_dir / asset['name'], asset)
+            installed = restore(args.root, args.archive_dir / asset["name"], asset)
         else:
-            with tempfile.TemporaryDirectory(prefix='lossqcd-download-') as temp:
-                path = Path(temp) / asset['name']
-                with urlopen(asset['url'], timeout=120) as incoming, path.open('wb') as outgoing:
+            with tempfile.TemporaryDirectory(prefix="lossqcd-download-") as temp:
+                path = Path(temp) / asset["name"]
+                with urlopen(asset["url"], timeout=120) as incoming, path.open("wb") as outgoing:
                     shutil.copyfileobj(incoming, outgoing)
                 installed = restore(args.root, path, asset)
-        print(f'{scope}: verified {len(asset["files"])} files; restored {installed}.')
+        print(f"{scope}: verified {len(asset['files'])} files; restored {installed}.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
