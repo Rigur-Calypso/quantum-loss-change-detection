@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "unit_tests": 428,
   "core_evidence_checks": 1869,
   "additional_study_checks": 984,
@@ -30,17 +30,29 @@
   ],
   "passed": true,
   "format_and_unused_code_checks": "Ruff 0.17.3; passing",
-  "module_names_shortened": true,
-  "source_modules_equal_after_name_and_doc_normalization": 58,
-  "source_modules_with_reviewed_path_or_inventory_changes": 3,
-  "archived_author_paths_remain_supported": true,
-  "scientific_arrays_changed": false,
-  "notebook_code_numerically_unchanged": true,
-  "notebook_outputs_unchanged": true,
-  "lesson_regenerated_seeded_arrays_identical": true,
-  "local_documentation_links_checked": 33,
+  "local_documentation_links_checked": 42,
   "published_numerical_reproduction_complete": false,
-  "scope": "Active repository contains the compiled report PDF only. Source and upload bundle are retained outside the Git checkout. Scientific code, raw ensembles and numerical findings are unchanged.",
-  "report_pages": 10,
-  "report_pdf_checked": true
+  "report_pdf": {
+    "path": "results/report.pdf",
+    "pages": 15,
+    "bytes": 1931454,
+    "sha256": "ddc902d4a6776a5139adf634bfb88f593b13beab934f25cbbd0ed46cf1277248",
+    "source": "User-provided final Imple.pdf; copied without modification",
+    "embedded_figures": 9,
+    "bibliography_entries": 4,
+    "review": "All pages rendered and read; no missing plots, unresolved citations or clipped content. Page 5 has excess whitespace."
+  },
+  "clean_checkout": {
+    "installed_package_tested": true,
+    "dependency_environment": "Existing Python 3.14.2 numerical environment reused; package built and installed into a separate temporary target without dependency downloads. GitHub CI independently installs development dependencies on Python 3.11 and 3.14.",
+    "original_project_fallback_blocked_during_audits_and_lesson": true,
+    "release_archives_restored_offline": true,
+    "lesson_code_cells_executed": 7,
+    "lesson_seeded_arrays_identical": true,
+    "metadata_members_restored": 572,
+    "raw_arrays_restored": 739
+  },
+  "scientific_arrays_changed": false,
+  "scope": "Submission review of source, tests, notebooks, attribution, final report and saved numerical evidence. Core/extension checks recalculate saved ensemble statistics and formulas; they do not regenerate all historical random trajectories. No claim of complete published-figure agreement.",
+  "reviewed_source_commit": "d1e545ea48219f10dbdd9eeec2a695c0850ee72c"
 }
